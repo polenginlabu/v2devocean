@@ -23,7 +23,7 @@
                         <div id="navbar" class="collapse navbar-collapse navigation-holder header-right justify-content-end">
                             <button class="menu-close"><i class="ti-close"></i></button>
                             <ul class="nav navbar-nav mb-2 mb-lg-0">
-                                <li class="menu-item-has-children">
+                                <li class="menu-item">
                                     <a href="#">Home</a>
 
                                 </li>
