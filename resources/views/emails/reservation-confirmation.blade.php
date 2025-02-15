@@ -26,6 +26,7 @@ Kindly avoid wearing white and close to it.
 
 ### **For Men:**
 Please wear formal attire, which can include a coat or long-sleeve polo.
+<br>
 **Color Palette:** Dark Gray, Brown, or Dusty Blue.
 Kindly avoid wearing Midnight Blue or Dark Blue suits or close to these.
 
@@ -63,6 +64,7 @@ Your presence means so much to us, and we can’t wait to celebrate this special
 
 <br>
 Warm regards,
-**JP & EL**
+<br>
+JP & EL
 
 @endcomponent
