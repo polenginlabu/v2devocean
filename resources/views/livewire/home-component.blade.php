@@ -1158,10 +1158,10 @@ But what really inspired me the most was her love and devotion to God and people
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
-                                    <img src="/wedding/squads/25.png" alt="">
+                                    <img src="/wedding/squads/25.jpg" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Jhosua Calem</a></h3>
+                                    <h3><a href="#">Rejie Montemor</a></h3>
                                     <span>Groomsman</span>
                                 </div>
                             </div>
@@ -1457,8 +1457,8 @@ But what really inspired me the most was her love and devotion to God and people
                     <div class="row">
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-blog-item">
-                                <div class="wpo-blog-img">
-                                    <img src="wedding/pay/3.png" alt="">
+                                <div class="wpo-blog-imgx">
+                                    <img src="wedding/pay/gcash.png" alt="">
                                 </div>
                                 <div class="wpo-blog-content text-center">
                                     <h5>GCASH
@@ -1472,8 +1472,8 @@ But what really inspired me the most was her love and devotion to God and people
                         </div>
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-blog-item">
-                                <div class="wpo-blog-img">
-                                    <img src="wedding/pay/1.png" alt="">
+                                <div class="wpo-blog-imgx">
+                                    <img src="wedding/pay/bpi.png" alt="">
                                 </div>
                                 <div class="wpo-blog-content text-center">
                                     <h5>BPI
@@ -1487,8 +1487,8 @@ But what really inspired me the most was her love and devotion to God and people
                         </div>
                         <div class="col col-lg-4 col-md-6 col-12">
                             <div class="wpo-blog-item">
-                                <div class="wpo-blog-img">
-                                    <img src="wedding/pay/2.png" alt="">
+                                <div class="wpo-blog-imgx">
+                                    <img src="wedding/pay/bdo.png" alt="">
                                 </div>
                                 <div class="wpo-blog-content text-center">
                                     <h5>BDO
