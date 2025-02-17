@@ -683,7 +683,7 @@ But what really inspired me the most was her love and devotion to God and people
                                                 <div class="wpo-service-text">
                                                     <a href="">BRIDESMAIDS</a>
                                                     <ul class="list-unstyled">
-                                                        <li>LANCYLOTTE GONZALES</li>
+                                                        <li>LANCYLOTT GONZALES</li>
                                                         <li>RHUBIE GARADO</li>
                                                         <li>HAZEL SACDALAN</li>
                                                         <li>DENICE ALAAN</li>
@@ -719,8 +719,8 @@ But what really inspired me the most was her love and devotion to God and people
                                                 <div class="wpo-service-text">
                                                     <a href="">FLOWER LADIES</a>
                                                     <ul class="list-unstyled">
-                                                        <li>CARLA MAE DELA PENA</li>
-                                                        <li>RHANE ANGELINE ESTONILLO</li>
+                                                        <li>CARLA MAE DELA PEÑA</li>
+                                                        <li>RHANE ANGELINE ESTONILO</li>
                                                         <li>MA. DANIELA MAE GARADO</li>
                                                         <li>SHARA JEAN SARAET</li>
                                                         <li>DANIELLA WENCESLAO</li>
@@ -1031,7 +1031,7 @@ But what really inspired me the most was her love and devotion to God and people
                                     <img src="/wedding/squads/22.png" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Lancylotte Gonzales</a></h3>
+                                    <h3><a href="#">Lancylott Gonzales</a></h3>
                                     <span>Bridesmaids</span>
 
                                 </div>
@@ -1248,7 +1248,7 @@ But what really inspired me the most was her love and devotion to God and people
                                     <img src="/wedding/squads/31.png" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Carla Mae Dela Pena</a></h3>
+                                    <h3><a href="#">Carla Mae Dela Peña</a></h3>
                                     <span>Flower Lady</span>
                                 </div>
                             </div>
@@ -1564,8 +1564,7 @@ But what really inspired me the most was her love and devotion to God and people
                                             <div class="office-info-text">
                                                 <h2>What is the call time?
                                                 </h2>
-                                                <p>✨ Yes, there are several accommodations near the wedding venue where you can stay:
-                                                </p>
+
                                               <p>✨ The ceremony will start at 3:00, so we kindly ask guests to arrive at least 1 hour earlier to settle in and enjoy the ambiance. We appreciate your punctuality!
 
                                                 </p>
