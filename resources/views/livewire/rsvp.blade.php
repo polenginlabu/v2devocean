@@ -28,7 +28,12 @@
                     </div>
 
                     <div class="submit-area mb-4">
-                        <button type="submit" class="theme-btn-s3">Send</button>
+                        <button type="submit" class="theme-btn-s3" wire:loading.attr="disabled">
+                            <span wire:loading.remove>Send</span>
+                            <span wire:loading>
+                                <i class="fa fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
                     </div>
                     @if (session()->has('success'))
                         <div class="alert alert-success">

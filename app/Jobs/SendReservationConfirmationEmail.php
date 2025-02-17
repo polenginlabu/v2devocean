@@ -28,7 +28,6 @@ class SendReservationConfirmationEmail implements ShouldQueue
         $this->email = $email;
         $this->phone = $phone;
         $this->reservationDate = $reservationDate;
-        $this->handle();
     }
 
     /**
