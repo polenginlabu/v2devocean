@@ -113,7 +113,7 @@
                 <div class="wpo-video-img">
 
                     <img src="wedding/ytthumb.png" alt="">
-                    <a href="https://www.youtube.com/embed/2G3ffdX-AqY?si=sq6AGQbGiu1aVZc_" class="video-btn" data-type="iframe"><i
+                    <a href="https://www.youtube.com/embed/8OAKfvX1H04?si=QijdXZ96UGu03Vcf" class="video-btn" data-type="iframe"><i
                             class="fi flaticon-play"></i></a>
                 </div>
             </div>
@@ -594,8 +594,8 @@ But what really inspired me the most was her love and devotion to God and people
                                                         <!-- Veil -->
                                                         <div class="col-md-4 mb-3">
                                                             <h5 class="">VEIL</h5>
-                                                            <p>HERALD FELICELDA</p>
-                                                            <p>DINERIEL GRACE FELICELDA</p>
+                                                            <p>MARION MONTEMAYOR</p>
+                                                            <p>SHERIKA MEJIA</p>
                                                         </div>
                                                         <!-- Candle -->
                                                         <div class="col-md-4 mb-3">
@@ -606,15 +606,14 @@ But what really inspired me the most was her love and devotion to God and people
                                                         <!-- Cord -->
                                                         <div class="col-md-4 mb-3">
                                                             <h5 class="">CORD</h5>
-                                                            <p>DANIEL ORIEL BALLANO</p>
-                                                            <p>JOYCE BALLANO</p>
+                                                            <p>MARVIN OCARIZA</p>
+                                                            <p>MA. JELYN DE JESUS</p>
                                                         </div>
                                                         <!-- Bible -->
                                                         <div class="col-md-4 mb-3">
                                                             <h5 class="">BIBLE</h5>
-                                                            <p>MARVIN OCARIZA</p>
-                                                            <p>MA. JELYN DE JESUS</p>
-                                                        </div>
+                                                            <p>BABYLYN SAMSON</p>
+                                                         </div>
                                                         <!-- Ring -->
                                                         <div class="col-md-4 mb-3">
                                                             <h5 class="">RING</h5>
@@ -623,8 +622,7 @@ But what really inspired me the most was her love and devotion to God and people
                                                         <!-- Coin -->
                                                         <div class="col-md-4 mb-3">
                                                             <h5 class="">COIN</h5>
-                                                            <p>MARION MONTEMAYOR</p>
-                                                            <p>SHERIKA MEJIA</p>
+                                                            <p>ANNE JOENELLE CRUZ</p>
                                                         </div>
 
                                                         <div class="col-md-12 mb-3">
@@ -784,10 +782,10 @@ But what really inspired me the most was her love and devotion to God and people
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
-                                    <img src="/wedding/squads/12.png" alt="">
+                                    <img src="/wedding/squads/15.png" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Herald Felicelda & Dineriel Grace Felicelda</a></h3>
+                                    <h3><a href="#">Marion Montemayor & Sherika Mejia</a></h3>
                                     <span>Veil</span>
 
                                 </div>
@@ -796,10 +794,10 @@ But what really inspired me the most was her love and devotion to God and people
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
-                                    <img src="/wedding/squads/13.png" alt="">
+                                    <img src="/wedding/squads/3.png" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Daniel Ballano & Joyce Ballano</a></h3>
+                                    <h3><a href="#">Marvin Ocariza & Ma. Jelyn De Jesus</a></h3>
                                     <span>Cord</span>
 
                                 </div>
@@ -812,10 +810,10 @@ But what really inspired me the most was her love and devotion to God and people
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
-                                    <img src="/wedding/squads/15.png" alt="">
+                                    <img src="/wedding/squads/5.png" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Marion Montemayor & Sherika Mejia</a></h3>
+                                    <h3><a href="#">Anne Joenelle Cruz</a></h3>
                                     <span>Coin</span>
                                 </div>
                             </div>
@@ -823,25 +821,15 @@ But what really inspired me the most was her love and devotion to God and people
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="wpo-team-item">
                                 <div class="wpo-team-img">
-                                    <img src="/wedding/squads/3.png" alt="">
+                                    <img src="/wedding/squads/2.png" alt="">
                                 </div>
                                 <div class="wpo-team-text">
-                                    <h3><a href="#">Ma. Jelyn De Jesus</a></h3>
+                                    <h3><a href="#">Babylyn Samson</a></h3>
                                     <span>Bible</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-                            <div class="wpo-team-item">
-                                <div class="wpo-team-img">
-                                    <img src="/wedding/squads/18.png" alt="">
-                                </div>
-                                <div class="wpo-team-text">
-                                    <h3><a href="#">Marvin Ocariza</a></h3>
-                                    <span>Bible</span>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                             <div class="wpo-team-item">
