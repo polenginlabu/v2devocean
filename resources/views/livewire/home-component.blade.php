@@ -548,6 +548,8 @@ But what really inspired me the most was her love and devotion to God and people
                                                 <div class="row justify-content-center mt-4">
                                                     <div class="col-md-6">
                                                         <ul class="list-unstyled">
+                                                            <li>DANIEL ORIEL BALLANO</li>
+                                                            <li>DAVID HERALD FELICELDA</li>
                                                             <li>REG EBALOBOR</li>
                                                             <li>CARLITO RAGUCOS</li>
                                                             <li>KARL LISONDRA</li>
@@ -562,6 +564,8 @@ But what really inspired me the most was her love and devotion to God and people
                                                     </div>
                                                     <div class="col-md-6">
                                                         <ul class="list-unstyled">
+                                                            <li>JOYCE ANN GARCIA-BALLANO </li>
+                                                            <li>DINERIEL GRACE BALLANO FELICELDA</li>
                                                             <li>MARITES CARREON</li>
                                                             <li>JULIE RAGUCOS</li>
                                                             <li>ANA CAMILLE POLANDAYA</li>
