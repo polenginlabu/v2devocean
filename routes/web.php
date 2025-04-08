@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ReservationEmailController;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 
@@ -62,3 +63,6 @@ Route::get('/wedding-invitation.ics', function () {
 Route::get('/redirect-to-maps', function () {
     return redirect()->away('https://maps.app.goo.gl/JwZWoNSoNWxCUGvo7');
 });
+
+
+Route::get('/reservations/send-bulk-emails', [ReservationEmailController::class, 'sendBulk']);
