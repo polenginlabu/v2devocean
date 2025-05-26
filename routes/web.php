@@ -66,3 +66,17 @@ Route::get('/redirect-to-maps', function () {
 
 
 Route::get('/reservations/send-bulk-emails', [ReservationEmailController::class, 'sendBulk']);
+
+
+Route::get('/updater', function () {
+    $records = App\Models\Devotion::orderBy('created_at', 'desc')->get();
+    $currentDate = now()->startOfDay(); // Today at midnight
+
+    $records->each(function ($record) use (&$currentDate) {
+        $record->timestamps = false;
+        $record->created_at = $currentDate;
+        $record->save();
+        echo "Updated record {$record->id} to {$currentDate->toDateString()}\n";
+        $currentDate = $currentDate->subDay(); // Subtract one day
+    });
+});

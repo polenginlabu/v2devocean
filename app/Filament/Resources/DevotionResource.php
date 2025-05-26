@@ -23,6 +23,11 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Auth;
+use Filament\Tables\Columns\Layout\Stack;
+use Filament\Tables\Columns\ViewColumn;
+use Filament\Tables\Actions\EditAction;
+
+
 
 class DevotionResource extends Resource
 {
@@ -100,54 +105,61 @@ class DevotionResource extends Resource
         ]);
     }
 
-    public static function table(Table $table): Table
+    protected function getTableContentGrid(): ?array
     {
-        return $table
+        return [
+            'md' => 2,
+            'xl' => 3,
+        ];
+    }
+
+   public static function table(Table $table): Table
+{
+    return $table
         ->defaultSort('created_at', 'desc')
-        ->contentGrid([
-            'md' => 2, // 2 cards per row on medium screens
-            'lg' => 3, // 3 cards per row on large screens
-            'xl' => 4, // 4 cards per row on extra-large screens
+        //  ->recordUrl(fn ($record) => \App\Filament\Resources\DevotionResource::getUrl(name: 'edit', parameters: ['record' => $record]))
+// ->recordUrl(fn ($record) => url("/admin/devotions/{$record->id}/edit"))
+     ->actions([
+            Tables\Actions\EditAction::make()
+                ->label('Custom Edit Label')->extraAttributes(['class' => 'hahahahha']),
+            // other actions...
         ])
-        ->recordClasses('rounded-lg shadow-md bg-gray-800 p-6 border border-gray-700 space-y-2')
         ->columns([
-            TextColumn::make('created_at')
-                ->label('Date')
-                ->date('F j, Y')
-                ->weight('bold')
-                ->alignment('start')
-                ->extraAttributes(['class' => 'text-sm text-gray-400']),
+            Stack::make([
+                TextColumn::make('created_at')
+                    ->label('Date')
+                    ->date('F j, Y')
+                    ->weight('bold')
+                    ->alignment('start')
+                    ->extraAttributes(['class' => 'text-sm text-gray-400']),
 
-            TextColumn::make('title')
-                ->label('Title')
-                ->weight('bold')
-                ->extraAttributes(['class' => 'text-xl text-white']),
+                TextColumn::make('title')
+                    ->label('Title')
+                    ->weight('bold')
+                    ->extraAttributes(['class' => 'text-xl text-white']),
 
-            TextColumn::make('full_reference')
-                ->label('Rhema')
-                ->getStateUsing(fn ($record) => "{$record->book} {$record->chapter}:{$record->verses}")
-                ->alignment('start')
-                ->extraAttributes(['class' => 'text-gray-300']),
+                TextColumn::make('full_reference')
+                    ->label('Rhema')
+                    ->getStateUsing(fn ($record) => "{$record->book} {$record->chapter}:{$record->verses}")
+                    ->alignment('start')
+                    ->extraAttributes(['class' => 'text-gray-300']),
 
-            TextColumn::make('bible_verse')
-                ->label('Verse')
-                ->limit(200)
-                ->extraAttributes(['class' => 'text-sm text-gray-400']),
-
-            TextColumn::make('tagged')
-                ->label('Tags')
-                ->getStateUsing(fn ($record) => $record->tagged()->pluck('tag_name')->toArray())
-                ->formatStateUsing(function ($state) {
-                    if (!$state || empty($state)) {
-                        return '-';
-                    }
-                    return collect($state)->map(fn ($tag) => "<span class='inline-block bg-blue-200 text-blue-800 text-xs font-medium mr-1 mb-1 px-2.5 py-0.5 rounded-full'>{$tag}</span>")
-                        ->implode('');
-                })
-                ->html()
-                ->extraAttributes(['class' => 'space-x-1']),
-
+                TextColumn::make('bible_verse')
+                    ->label('Verse')
+                    ->limit(200)
+                    ->extraAttributes(['class' => 'text-sm text-gray-400']),
+                ViewColumn::make('tagged')
+                    ->label('Tags')
+                    ->view('filament.components.tag-badges')
+                    ->getStateUsing(fn ($record) => $record->tagged()->pluck('tag_name')->toArray()),
+            ]),
         ])
+        ->contentGrid([
+            'md' => 2,
+            'xl' => 3,
+        ])
+
+
         ->filters([
             SelectFilter::make('tags')
                 ->label('Filter by Tag')
@@ -159,8 +171,8 @@ class DevotionResource extends Resource
                     return $query->withAnyTag([$data]);
                 }),
         ]);
+}
 
-    }
 
     public static function getRelations(): array
     {
@@ -174,8 +186,8 @@ class DevotionResource extends Resource
         return [
             'index' => Pages\ListDevotions::route('/'),
             'create' => Pages\CreateDevotion::route('/create'),
-            'edit' => Pages\EditDevotion::route('/{record}/edit'),
-            'cards' => Pages\DevotionCards::route('/cards'),
+            // 'edit' => Pages\EditDevotion::route('/{record}/edit'),
+            // 'cards' => Pages\DevotionCards::route('/cards'),
         ];
     }
 }

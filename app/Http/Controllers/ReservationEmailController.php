@@ -5,14 +5,25 @@ namespace App\Http\Controllers;
 use App\Models\Reservation;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\BulkReservationConfirmation;
+use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Log;
 
 class ReservationEmailController extends Controller
 {
-    public function sendBulk()
+    public function sendBulk(Request $request)
     {
-        $reservations = Reservation::whereNotNull('email')->get();
+        $page = $request->input('page', 1); // Default to page 1
+        $perPage = $request->input('per_page', 50); // Default to 50 emails per page
+
+        $skip = ($page - 1) * $perPage;
+
+        $reservations = Reservation::whereNotNull('email')
+            ->orderBy('id') // Ensures consistency
+            ->skip($skip)
+            ->take($perPage)
+            ->get();
+
         $sent = 0;
         $failed = [];
 
@@ -33,9 +44,12 @@ class ReservationEmailController extends Controller
         }
 
         return response()->json([
-            'message' => "Bulk email process completed.",
+            'message' => "Bulk email process completed for page {$page}.",
             'sent_count' => $sent,
-            'failed_emails' => $failed
+            'failed_emails' => $failed,
+            'page' => $page,
+            'per_page' => $perPage
         ]);
     }
+
 }
