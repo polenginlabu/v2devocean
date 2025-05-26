@@ -1,8 +1,8 @@
 <div class="badang py-4">
     <div class="flex flex-wrap gap-1 wawawi">
     @forelse ($getState() as $tag)
-        <a href="{{ url()->current() . '?tableFilters[tags][value]=' . urlencode($tag) }}">
-
+        {{-- <a href="{{ url()->current() . '?tableFilters[tags][value]=' . urlencode($tag) }}"> --}}
+ <a href="#">
 
             <x-filament::badge color="info">
                 {{ $tag }}

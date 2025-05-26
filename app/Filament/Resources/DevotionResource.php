@@ -161,15 +161,47 @@ class DevotionResource extends Resource
 
 
         ->filters([
-            SelectFilter::make('tags')
+
+            // http://localhost:8081/admin/devotions?tableFilters[tags][value]=Sheep
+            // http://localhost:8081/livewire/update?tableFilters[tags][value]=Reaffirm
+
+             SelectFilter::make('tags')
                 ->label('Filter by Tag')
-                ->options(Tag::pluck('name', 'name')->toArray())
+                ->searchable()
+                ->preload()
+                ->options(
+                     Tag::query()
+                        ->orderBy('name')
+                        ->get()
+                        ->pluck('name', 'name') // Gets all records
+                        ->toArray()
+                )
                 ->query(function ($query, $data) {
                     if (empty($data['value'])) {
                         return $query;
                     }
                     return $query->withAnyTag([$data]);
                 }),
+        //   SelectFilter::make('tags')
+        //     ->label('Filter by Tag')
+        //     ->searchable()
+        //     ->options(function (string $search = null): array {
+        //         return Tag::query()
+        //             ->when(
+        //                 $search,
+        //                 fn($query) => $query->where('name', 'like', "%{$search}%"),
+        //                 fn($query) => $query->limit(100) // Show first 100 by default
+        //             )
+        //             ->orderBy('name')
+        //             ->pluck('name', 'name')
+        //             ->toArray();
+        //     })
+        //     ->query(function ($query, $data) {
+        //         if (empty($data['value'])) {
+        //             return $query;
+        //         }
+        //         return $query->withAnyTag([$data['value']]);
+        //     })
         ]);
 }
 
