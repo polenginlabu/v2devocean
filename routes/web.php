@@ -8,8 +8,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/jp-el-wedding', function () {
-    return view('welcome');
+// Route::get('/jp-el-wedding', function () {
+//     return view('welcome');
+// });
+
+Route::get('/{slug}', function ($slug) {
+    // $wedding = Wedding::where('slug', $slug)->firstOrFail();
+
+    $viewPath = "weddings.$slug.index";
+
+    if (!view()->exists($viewPath)) {
+        abort(404, "Custom view for this wedding not found.");
+    }
+
+    return view($viewPath, ['slug' => $slug]);
 });
 
 Route::get('/preview-invitation', function () {
