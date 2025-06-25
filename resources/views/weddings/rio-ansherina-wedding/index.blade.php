@@ -87,7 +87,7 @@
     </style>
 </head>
 
-<body>
+<body class="color12">
 
     <!-- start page-wrapper -->
     <div class="page-wrapper">
