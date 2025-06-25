@@ -8,7 +8,7 @@
                         <div class="container-fluid">
                             <div class="slide-content">
                                 <div data-swiper-parallax="300" class="slide-title">
-                                    <h2>Rio & Ansherina</h2>
+                                    <h2 style="line-height: 85px;">Rio & Ansherina</h2>
                                 </div>
                                 <div data-swiper-parallax="400" class="slide-text">
                                     <p>We Are Getting Married Oct 06,2025</p>
@@ -30,7 +30,7 @@
                         <div class="container-fluid">
                             <div class="slide-content">
                                   <div data-swiper-parallax="300" class="slide-title">
-                                    <h2>Rio & Ansherina</h2>
+                                    <h2 style="line-height: 85px;">Rio & Ansherina</h2>
                                 </div>
                                 <div data-swiper-parallax="400" class="slide-text">
                                     <p>We Are Getting Married Oct 06,2025</p>
@@ -52,7 +52,7 @@
                         <div class="container-fluid">
                             <div class="slide-content">
                                  <div data-swiper-parallax="300" class="slide-title">
-                                    <h2>Rio & Ansherina</h2>
+                                    <h2 style="line-height: 85px;">Rio & Ansherina</h2>
                                 </div>
                                 <div data-swiper-parallax="400" class="slide-text">
                                     <p>We Are Getting Married Oct 06,2025</p>

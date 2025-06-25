@@ -184,7 +184,7 @@
 
         <div class="floating-div">
             <div class="floating-date">
-                Friday, April 11, 2024
+                Monday, October 06, 2025
             </div>
             <a class="theme-btn-s3" href="#RSVP">RSVP</a>
         </div>
