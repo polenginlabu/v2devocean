@@ -12,5 +12,6 @@ class Reservation extends Model
         'phone',
         'reservation_date',
         'status',
+        'slug'
     ];
 }

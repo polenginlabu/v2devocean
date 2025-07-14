@@ -41,7 +41,7 @@
                         </div>
                     @endif
                     <div>
-                        <div class="mb-4 text-center" style="font-style: italic;"> <span><strong>Please RSVP at your earliest convenience so we can finalize the seating chart by February 28</strong></span></div>
+                        <div class="mb-4 text-center" style="font-style: italic;"> <span><strong>Please RSVP at your earliest convenience so we can finalize the seating chart</strong></span></div>
                     </div>
 
                 </form>

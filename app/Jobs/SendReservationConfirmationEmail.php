@@ -18,16 +18,19 @@ class SendReservationConfirmationEmail implements ShouldQueue
     public $email;
     public $phone;
     public $reservationDate;
+    public $slug;
 
     /**
      * Create a new job instance.
      */
-    public function __construct($name, $email, $phone, $reservationDate)
+    public function __construct($name, $email, $phone, $reservationDate, $slug)
     {
+
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
         $this->reservationDate = $reservationDate;
+        $this->slug = $slug;
     }
 
     /**
@@ -40,7 +43,8 @@ class SendReservationConfirmationEmail implements ShouldQueue
                 Str::title($this->name) ,
                 $this->email,
                 $this->phone,
-                $this->reservationDate
+                $this->reservationDate,
+                $this->slug
             )
         );
     }

@@ -17,16 +17,18 @@ class ReservationConfirmation extends Mailable
     public $email;
     public $phone;
     public $reservation_date;
+    public $slug;
 
     /**
      * Create a new message instance.
      */
-    public function __construct($name, $email, $phone, $reservation_date)
+    public function __construct($name, $email, $phone, $reservation_date, $slug)
     {
         $this->name = $name;
         $this->email = $email;
         $this->phone = $phone;
         $this->reservation_date = $reservation_date;
+        $this->slug = $slug;
     }
 
     /**
@@ -44,8 +46,21 @@ class ReservationConfirmation extends Mailable
      */
     public function content(): Content
     {
+        $logo = 'https://devocean.website/wedding/logo.png';
+        $logoAlt = 'JP & EL Wedding Logo';
+
+        if ($this->slug) {
+            $logo = 'https://devocean.website/wedding/' . $this->slug . '/wedding-logo.png';
+            $logoAlt = $this->slug. 'Wedding Logo';
+        }
+
         return new Content(
-            markdown: 'emails.reservation-confirmation',
+            markdown: 'emails.ar-reservation-confirmation',
+            with: [
+                'slug' => $this->slug,
+                'logo' => $logo,
+                'logoAlt' => $logoAlt
+            ],
         );
     }
 

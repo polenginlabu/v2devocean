@@ -79,6 +79,10 @@
             font-weight: bold;
         }
 
+        .dots-false .owl-dots{
+         display: none;
+        }
+
         @media screen and (max-width: 63.9969em) {
             .floating-date {
                 display: none;

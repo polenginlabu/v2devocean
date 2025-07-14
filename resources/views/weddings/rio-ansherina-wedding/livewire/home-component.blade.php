@@ -1,9 +1,14 @@
 <main>
+    <style>
+        .wpo-hero-slider .slide-inner:before, .wpo-hero-slider .hero-inner:before, .static-hero .slide-inner:before, .static-hero .hero-inner:before, .wpo-hero-slider-s2 .slide-inner:before, .wpo-hero-slider-s2 .hero-inner:before, .wpo-hero-slider-s3 .slide-inner:before, .wpo-hero-slider-s3 .hero-inner:before {
+            background: #590d80;
+        }
+    </style>
     <section class="wpo-hero-slider wpo-hero-slider-s2">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slide-inner slide-bg-image" data-background="/wedding/rio-ansherina/slide1.png">
+                    <div class="slide-inner slide-bg-image" data-background="/wedding/rio-ansherina/1920-1.png">
                         <!-- <div class="gradient-overlay"></div> -->
                         <div class="container-fluid">
                             <div class="slide-content">
@@ -25,7 +30,7 @@
                 </div> <!-- end swiper-slide -->
 
                 <div class="swiper-slide">
-                    <div class="slide-inner slide-bg-image" data-background="/wedding/rio-ansherina/slide2.png">
+                    <div class="slide-inner slide-bg-image" data-background="/wedding/rio-ansherina/1920-2.png">
                         <!-- <div class="gradient-overlay"></div> -->
                         <div class="container-fluid">
                             <div class="slide-content">
@@ -47,7 +52,7 @@
                 </div> <!-- end swiper-slide -->
 
                 <div class="swiper-slide">
-                    <div class="slide-inner slide-bg-image" data-background="/wedding/rio-ansherina/slide3.png">
+                    <div class="slide-inner slide-bg-image" data-background="/wedding/rio-ansherina/1920-3.png">
                         <!-- <div class="gradient-overlay"></div> -->
                         <div class="container-fluid">
                             <div class="slide-content">
@@ -78,7 +83,7 @@
     </section>
     <!-- end of wpo-hero-slide-section-->
     <!-- start wpo-wedding-date -->
-    <section class="wpo-wedding-date section-padding">
+    <section class="wpo-wedding-date section-padding" style="padding-bottom: 120px !important;">
         <h2 class="hidden">some</h2>
         <div class="container">
             <div class="row">
@@ -92,6 +97,43 @@
     </section>
     <!-- end wpo-wedding-date -->
     <!-- start couple-section -->
+
+    <section class="wpo-testimonials-section section-padding" id="couple">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-12">
+                    <div class="wpo-testimonials-img">
+                        <img src="/wedding/rio-ansherina/438.png" alt="">
+                        <div class="wpo-testimonials-img-shape">
+                            <img src="/wedding/images/testimonial/shape.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 offset-lg-1 col-12">
+                    <div class="wpo-testimonials-wrap">
+                        <h2>IT ALL STARTED IN A PRAYER</h2>
+                        <div class="wpo-testimonials-active owl-carousel dots-false">
+                            <div class="wpo-testimonials-item">
+                                <p>Their story quietly began in 2023, during the simple days of getting to know each other. Rio, with all his patience and persistence, kept building a friendship with Ansherina—even after being gently turned down twice when he asked permission to pursue her.
+
+But Rio never lost hope. In his heart, he believed that the right time would come—and it did.
+
+After a year of silent prayers and waiting, Anshe finally gave him the chance to win her heart. And just a few months later, she said the sweetest 'yes' that changed everything.
+ </p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end container -->
+
+        <div class="wpo-testimonials-shape">
+            <img src="assets/images//testimonial/shape2.png" alt="">
+        </div>
+    </section>
     <section class="couple-section section-padding" id="couple">
         <div class="container">
             <div class="row align-items-center">
@@ -99,7 +141,7 @@
                     <div class="couple-area clearfix">
                         <div class="text-grid bride">
                             <div class="couple-img">
-                                <img src="/wedding/images/couple/2.jpg" alt="">
+                                <img src="/wedding/rio-ansherina/rio-thumbnail.png" alt="">
                             </div>
                             <h3>Rio Privado</h3>
                             <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis give you com of system. </p>
@@ -117,7 +159,7 @@
                         </div>
                         <div class="text-grid groom">
                             <div class="couple-img">
-                                <img src="/wedding/images/couple/3.jpg" alt="">
+                                <img src="/wedding/rio-ansherina/anshe-thumbnail.png" alt="">
                             </div>
                             <h3>Ansherina Roy</h3>
                             <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis give you com of system. </p>
@@ -170,14 +212,21 @@
                         <div class="row">
                             <div class="col col-lg-6 col-12">
                                 <div class="story-text right-align-text">
-                                    <h3>First time we meet</h3>
-                                    <span class="date">Nov 12,2024</span>
-                                    <p>I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system,the actual teach</p>
+                                    <h3>Rio's POV</h3>
+                                    {{-- <span class="date">Nov 12,2024</span> --}}
+                                    <p>It all started in a prayer in the year 2022.I asked the Lord to reveal the suitable helper He prepared for me but that time I was not involved in body ministry yet that was why His first instructions for me was to Seek first His Kingdom and righteousness.
+
+                                    In May 2022, following God's instructions I, joined the Technical Team and started to serve. That time, I knew in my heart that God was preparing me for the next season of my life.
+
+
+                                    July 2022, God Slowly revealed the woman He prepared. It was on Crossover Manila when I first noticed a girl with a facemask, has beautiful eyes and you can't deny her passion to serve God. After that I could not forget her and she was always in my mind. I always saw her in Crossover, Sunday Service and her passion to serve God and people.
+
+                                    That moment my heart desired to know her more and started praying for her.</p>
                                 </div>
                             </div>
                             <div class="col col-lg-6 col-12">
                                 <div class="img-holder">
-                                    <img src="/wedding/images/story/1.jpg" alt class="img img-responsive">
+                                    <img src="/wedding/rio-ansherina/rio-310.png" alt class="img img-responsive">
                                     <div class="story-shape-img">
                                         <img src="/wedding/images/story/shape.png" alt="">
                                     </div>
@@ -187,7 +236,7 @@
                         <div class="row">
                             <div class="col col-lg-6 col-12">
                                 <div class="img-holder right-align-text left-site">
-                                    <img src="/wedding/images/story/2.jpg" alt class="img img-responsive">
+                                    <img src="/wedding/rio-ansherina/anshe-310.png" alt class="img img-responsive">
                                     <div class="story-shape-img">
                                         <img src="/wedding/images/story/shape.png" alt="">
                                     </div>
@@ -198,52 +247,22 @@
                                     <i class="fi flaticon-heart"></i>
                                 </span>
                                 <div class="story-text">
-                                    <h3>First Date</h3>
-                                    <span class="date">Dec 25,2024</span>
-                                    <p>I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system,the actual teach</p>
+                                    <h3>Ansherina's POV</h3>
+                                    {{-- <span class="date">Dec 25,2024</span> --}}
+                                    <p>It was in 2022 when the Lord planted a special vision in my heart — to desire a Godly family. I remember so clearly, I was doing my daily devotion, reading Luke Chapter 1 — the story of Mary visiting Elizabeth while both of them were carrying promises from God. From that moment, I realized how important it is to build a family according to His divine plan, just as He carefully orchestrated the lives of Mary and Elizabeth.
+
+                                    Curious and a bit puzzled, I asked God in prayer, “Lord, why are You telling me this now?” I wasn’t even asking for a partner then; I was already so content and secure in His love. But after that prayer, God gently stirred my heart — telling me that someone would pursue me.
+
+                                    I couldn’t help but laugh at the thought! I honestly didn’t believe it. How could that even happen? I had no close guy friends except for the ‘kuyas’ in our church, and my hands were full with so many responsibilities.
+
+                                    But truly, God is faithful and always true to His Word.
+
+                                    Because just months later… a friend request popped up — and it was from Rio. Little did I know, he was the very one God had prepared for me all along.
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col col-lg-6 col-12 text-holder right-heart">
-                                <span class="heart">
-                                    <i class="fi flaticon-calendar"></i>
-                                </span>
-                                <div class="story-text right-align-text">
-                                    <h3>Marriage Proposal</h3>
-                                    <span class="date">Nov 12,2024</span>
-                                    <p>I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system,the actual teach</p>
-                                </div>
-                            </div>
-                            <div class="col col-lg-6 col-12">
-                                <div class="img-holder right-align-text">
-                                    <img src="/wedding/images/story/3.jpg" alt class="img img-responsive">
-                                    <div class="story-shape-img">
-                                        <img src="/wedding/images/story/shape.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-lg-6 col-12">
-                                <div class="img-holder video-holder left-site">
-                                    <img src="/wedding/images/story/4.jpg" alt class="img img-responsive">
-                                    <div class="story-shape-img">
-                                        <img src="/wedding/images/story/shape.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-lg-6 col-12 text-holder">
-                                <span class="heart">
-                                    <i class="fi flaticon-dove"></i>
-                                </span>
-                                <div class="story-text">
-                                    <h3>Our Engagement</h3>
-                                    <span class="date">Dec 25,2024</span>
-                                    <p>I must explain to you how all this mistaken idea of denouing pleasure and praising pain was born and I will give you com acount of system,the actual teach</p>
-                                </div>
-                            </div>
-                        </div>
+
                         <div class="row">
                             <div class="col offset-lg-6 col-lg-6 col-12 text-holder">
                                 <span class="heart">
@@ -259,7 +278,7 @@
     <!-- end story-section -->
 
     <!-- start wpo-portfolio-section -->
-    <section class="wpo-portfolio-section-s2 section-padding" id="gallery">
+    <section class="wpo-portfolio-section-s2 section-padding" id="gallery" style="padding-bottom: 120px;">
         <div class="container-fluid">
             <div class="row">
                 <div class="wpo-section-title-s2">
@@ -278,8 +297,8 @@
                         <div class="portfolio-grids gallery-container clearfix">
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="/wedding/images/portfolio/7.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/images/portfolio/7.jpg" alt class="img img-responsive">
+                                    <a href="/wedding/rio-ansherina/895-438.png" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="/wedding/rio-ansherina/895-438.png" alt class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -288,8 +307,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="/wedding/images/portfolio/8.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/images/portfolio/8.jpg" alt class="img img-responsive">
+                                    <a href="/wedding/rio-ansherina/442-1.png" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="/wedding/rio-ansherina/442-1.png" alt class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -298,8 +317,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="/wedding/images/portfolio/9.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/images/portfolio/9.jpg" alt class="img img-responsive">
+                                    <a href="/wedding/rio-ansherina/442-2.png" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="/wedding/rio-ansherina/442-2.png" alt class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -308,8 +327,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="/wedding/images/portfolio/10.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/images/portfolio/10.jpg" alt class="img img-responsive">
+                                    <a href="/wedding/rio-ansherina/442-3.png" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="/wedding/rio-ansherina/442-3.png" alt class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -318,8 +337,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="/wedding/images/portfolio/11.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/images/portfolio/11.jpg" alt class="img img-responsive">
+                                    <a href="/wedding/rio-ansherina/442-4.png" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="/wedding/rio-ansherina/442-4.png" alt class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -328,8 +347,8 @@
                             </div>
                             <div class="grid">
                                 <div class="img-holder">
-                                    <a href="/wedding/images/portfolio/12.jpg" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/images/portfolio/12.jpg" alt class="img img-responsive">
+                                    <a href="/wedding/rio-ansherina/895-1.png" class="fancybox" data-fancybox-group="gall-1">
+                                        <img src="/wedding/rio-ansherina/895-1.png" alt class="img img-responsive">
                                         <div class="hover-content">
                                             <i class="ti-plus"></i>
                                         </div>
@@ -346,87 +365,8 @@
     <!-- end wpo-portfolio-section -->
 
     <!-- start of wpo-contact-section -->
-    <section class="wpo-contact-section section-padding" id="RSVP">
-        <div class="container">
-            <div class="wpo-contact-section-wrapper">
-                <div class="wpo-contact-form-area">
-                    <div class="wpo-section-title-s2">
-                        <div class="section-title-simg">
-                            <img src="/wedding/images/section-title2.png" alt="">
-                        </div>
-                        <h2>WILL YOU ATTEND?</h2>
-                        <div class="section-title-img">
-                            <div class="round-ball"></div>
-                        </div>
-                    </div>
-                    <form method="post" class="contact-validation-active" id="contact-form-main">
-                        <div>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                        </div>
-                        <div>
-                            <input type="email" class="form-control" name="email" id="email"
-                                placeholder="Email">
-                        </div>
-                        <div>
-                            <input type="text" class="form-control" name="adress" id="adress"
-                                placeholder="Adress">
-                        </div>
-                        <div>
-                            <select name="service" class="form-control">
-                                <option disabled="disabled" selected>Services</option>
-                                <option>Photography</option>
-                                <option>The Rehearsal Dinner</option>
-                                <option>The Afterparty</option>
-                                <option>Videographers</option>
-                                <option>Perfect Cake</option>
-                                <option>All Of The Above</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select name="guest" class="form-control">
-                                <option disabled="disabled" selected>Number Of Guests</option>
-                                <option>01</option>
-                                <option>02</option>
-                                <option>03</option>
-                                <option>04</option>
-                                <option>05</option>
-                            </select>
-                        </div>
-                        <div>
-                            <select name="meal" class="form-control last">
-                                <option disabled="disabled" selected>Meal Preferences</option>
-                                <option>Chicken Soup</option>
-                                <option>Motton Kabab</option>
-                                <option>Chicken BBQ</option>
-                                <option>Mix Salad</option>
-                                <option>Beef Ribs </option>
-                            </select>
-                        </div>
-                        <div class="submit-area">
-                            <button type="submit" class="theme-btn-s3">Send An Inquiry</button>
-                            <div id="c-loader">
-                                <i class="ti-reload"></i>
-                            </div>
-                        </div>
-                        <div class="clearfix error-handling-messages">
-                            <div id="success">Thank you</div>
-                            <div id="error"> Error occurred while sending email. Please try again later.
-                            </div>
-                        </div>
-                    </form>
-                    <div class="border-style"></div>
-                </div>
-                <div class="vector-1">
-                    <img src="/wedding/images/contact/1.png" alt="">
-                </div>
-                <div class="vector-2">
-                    <img src="/wedding/images/contact/2.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of wpo-contact-section -->
 
+    @livewire('rsvp', ['slug' => $slug])
 
     <!-- start wpo-cta-section -->
 

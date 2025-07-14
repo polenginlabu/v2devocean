@@ -13,6 +13,7 @@ class Rsvp extends Component
     public $name;
     public $email;
     public $phone;
+    public $slug;
 
     public function render()
     {
@@ -21,7 +22,6 @@ class Rsvp extends Component
 
     public function submit()
     {
-
         $validated = $this->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email',
@@ -31,6 +31,7 @@ class Rsvp extends Component
         ]);
 
         $validated['reservation_date'] = now();
+        if($this->slug) $validated['slug'] = $this->slug;
 
         // Update if email exists, otherwise create a new reservation
         $reservation = Reservation::updateOrCreate(
@@ -42,7 +43,8 @@ class Rsvp extends Component
             $this->name,
             $this->email,
             $this->phone,
-            now()
+            now(),
+            $this->slug
         );
 
         session()->flash('success', 'Reservation submitted successfully! A confirmation email has been sent.');
