@@ -4,7 +4,7 @@
             <div class="wpo-contact-form-area">
                 <div class="wpo-section-title-s2">
                     <div class="section-title-simg">
-                        <img src="wedding/images/section-title2.png" alt="">
+                        <img src="{{$imageUrl}}" alt="">
                     </div>
                     <h2>We’ve Reserved a Seat for You!</h2>
                     <div class="mb-4"> <span>Will you be joining us?</span></div>
@@ -50,10 +50,10 @@
 
             </div>
             <div class="vector-1">
-                <img src="wedding/images/contact/1.png" alt="">
+                <img src="{{$contact1}}" alt="">
             </div>
             <div class="vector-2">
-                <img src="wedding/images/contact/2.png" alt="">
+                <img src="{{$contact2}}" alt="">
             </div>
         </div>
     </div>

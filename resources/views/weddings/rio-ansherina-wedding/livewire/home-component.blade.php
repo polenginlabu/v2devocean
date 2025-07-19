@@ -4,7 +4,7 @@
             background: #590d80;
         }
     </style>
-    <section class="wpo-hero-slider wpo-hero-slider-s2">
+    <section class="wpo-hero-slider wpo-hero-slider-s2" id="home">
         <div class="swiper-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -144,14 +144,18 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                                 <img src="/wedding/rio-ansherina/rio-thumbnail.png" alt="">
                             </div>
                             <h3>Rio Privado</h3>
-                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis give you com of system. </p>
-                            <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>
+                            <strong>Nature of work:</strong> Customs Broker
+                            <br>
+                            <strong>Age:</strong> 29
+                            <br>
+                            <strong>From:</strong> Pinamalayan, Oriental Mindoro
+                            <br>
+                            <strong>Life Verse:</strong>
+                            Exodus 14:14
+                            "The Lord will fight for you, you need only to be still. "
+                            </p>
+
                         </div>
                         <div class="middle-couple-pic">
                             <img src="wedding/rio-ansherina/intro.png" alt="">
@@ -162,14 +166,19 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                                 <img src="/wedding/rio-ansherina/anshe-thumbnail.png" alt="">
                             </div>
                             <h3>Ansherina Roy</h3>
-                            <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis give you com of system. </p>
-                            <div class="social">
-                                <ul>
-                                    <li><a href="#"><i class="ti-facebook"></i></a></li>
-                                    <li><a href="#"><i class="ti-twitter-alt"></i></a></li>
-                                    <li><a href="#"><i class="ti-instagram"></i></a></li>
-                                </ul>
-                            </div>
+                            <p>
+
+                                <strong>Nature of work:</strong> Product Specialist
+                                <br>
+                                <strong>Age:</strong> 27
+                                <br>
+                                <strong>From:</strong> Manila
+                                <br>
+                                <strong>Life Verse:</strong>
+                                Zephaniah 3:17
+                                "The Lord is with you, mighty warrior!"
+                            </p>
+
                         </div>
                     </div>
                 </div>
@@ -178,7 +187,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
     </section>
     <!-- end couple-section -->
     <!-- start wpo-video-section -->
-    <section class="wpo-video-section-s2">
+    {{-- <section class="wpo-video-section-s2">
         <h2 class="hidden">some</h2>
         <div class="wpo-video-item">
             <div class="wpo-video-img">
@@ -187,7 +196,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                         class="fi flaticon-play"></i></a>
             </div>
         </div>
-    </section>
+    </section> --}}
     <!-- end wpo-video-section-->
 
     <!-- start story-section -->
@@ -196,7 +205,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
             <div class="row">
                 <div class="wpo-section-title-s2">
                     <div class="section-title-simg">
-                        <img src="/wedding/images/section-title2.png" alt="">
+                        <img src="/wedding/rio-ansherina/section-title2.png" alt="">
                     </div>
                     <h2>Our Love Story</h2>
                     <div class="section-title-img">
@@ -283,7 +292,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
             <div class="row">
                 <div class="wpo-section-title-s2">
                     <div class="section-title-simg">
-                        <img src="/wedding/images/section-title2.png" alt="">
+                        <img src="/wedding/rio-ansherina/section-title2.png" alt="">
                     </div>
                     <h2>Sweet Moments</h2>
                     <div class="section-title-img">
@@ -370,7 +379,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
 
     <!-- start wpo-cta-section -->
 
-    <div class="wpo-cta-section-s3">
+    {{-- <div class="wpo-cta-section-s3">
         <div class="conatiner-fluid">
             <div class="wpo-cta-item">
                 <h2>Adventure Begins</h2>
@@ -378,37 +387,42 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                 <a class="theme-btn-s2" href="contact.html">View Details</a>
             </div>
         </div>
-    </div>
+    </div> --}}
 
     <!-- end wpo-cta-section -->
 
     <!-- start wpo-event-section -->
-    <section class="wpo-event-section section-padding" id="event">
+    <section class="wpo-event-section section-padding" id="entourage">
         <div class="container">
             <div class="row">
                 <div class="wpo-section-title-s2">
                     <div class="section-title-simg">
-                        <img src="/wedding/images/section-title2.png" alt="">
+                        <img src="/wedding/rio-ansherina/section-title2.png" alt="">
                     </div>
-                    <h2>TIME AND PLACE</h2>
+                    <h2>the
+entourage</h2>
                     <div class="section-title-img">
                         <div class="round-ball"></div>
                     </div>
                 </div>
             </div>
             <div class="wpo-event-wrap">
-                <div class="row">
+                <div class="row" style="display: flex; justify-content: center;">
                     <div class="col col-lg-4 col-md-6 col-12">
                         <div class="wpo-event-item">
                             <div class="wpo-event-text">
-                                <h2>The Reception</h2>
+                                <h2>groomsmen</h2>
                                 <ul>
-                                    <li>Monday, 25 Sep, 2024
-                                        1:00 PM – 4:30 PM</li>
-                                    <li>Estern Comunity Centure, 525 Road 123, USA</li>
-                                    <li>Phone : +12345678910</li>
-
-                                    <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See Location</a></li>
+                                    <li>JEFFREY SAJUL</li>
+                                    <li>JC ANDAL</li>
+                                    <li>ROIVAN ADA</li>
+                                    <li>JAYVEE SOYOSA</li>
+                                    <li>ROWELL SADICON</li>
+                                    <li>ROMAR JAKE NARVAS</li>
+                                    <li>LEE MATHEW ROY</li>
+                                    <li>HARRY MACALINDONG</li>
+                                    <li>ARVIN DE GUIA</li>
+                                    <li>EDGAR BERNARDO</li>
                                 </ul>
                             </div>
                             <div class="event-shape-1">
@@ -422,14 +436,18 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                     <div class="col col-lg-4 col-md-6 col-12">
                         <div class="wpo-event-item">
                             <div class="wpo-event-text">
-                                <h2>THE CEREMONY</h2>
+                                <h2>bridesmaid</h2>
                                 <ul>
-                                    <li>Monday, 25 Sep, 2024
-                                        1:00 PM – 4:30 PM</li>
-                                    <li>Estern Comunity Centure, 525 Road 123, USA</li>
-                                    <li>Phone : +12345678910</li>
-
-                                    <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See Location</a></li>
+                                    <li>AIRA ORPIANO</li>
+                                    <li>KIMBERLY AQUINO</li>
+                                    <li>MARICRIS ARTITCHEA</li>
+                                    <li>SOFIA REGIO</li>
+                                    <li>ELSHERYN DE JESUS</li>
+                                    <li>JEM ARIANNE SALVACION</li>
+                                    <li>PATRICIA TRINIDAD</li>
+                                    <li>MARJORIE BALASTON</li>
+                                    <li>JESSICA DUMARAOS</li>
+                                    <li>GERELYN PRIVADO</li>
                                 </ul>
                             </div>
                             <div class="event-shape-1">
@@ -440,7 +458,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-6 col-12">
+                    {{-- <div class="col col-lg-4 col-md-6 col-12">
                         <div class="wpo-event-item">
                             <div class="wpo-event-text">
                                 <h2>Wedding Party</h2>
@@ -460,51 +478,57 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                                 <img src="/wedding/images/event-shape-2.png" alt="">
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
 
         </div> <!-- end container -->
     </section>
+
+
     <!-- end wpo-event-section -->
     <!-- start wpo-partners-section -->
     <section class="wpo-partners-section-s3">
         <h2 class="hidden">Partners</h2>
         <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="partner-grids partners-slider owl-carousel">
-                        <div class="grid">
-                            <img src="/wedding/images/partners/1.png" alt>
-                        </div>
-                        <div class="grid">
-                            <img src="/wedding/images/partners/2.png" alt>
-                        </div>
-                        <div class="grid">
-                            <img src="/wedding/images/partners/3.png" alt>
-                        </div>
-                        <div class="grid">
-                            <img src="/wedding/images/partners/4.png" alt>
-                        </div>
-                        <div class="grid">
-                            <img src="/wedding/images/partners/5.png" alt>
-                        </div>
-                    </div>
+        <div class="row">
+            <div class="wpo-section-title-s2">
+                <div class="section-title-simg">
+                    <img src="/wedding/rio-ansherina/section-title2.png" alt="">
+                </div>
+                <h2>Gifts</h2>
+                <div class="section-title-img">
+                    <div class="round-ball"></div>
                 </div>
             </div>
+
+            <div class="wpo-blog-items">
+                <div class="row" style="display: flex; justify-content: center;">
+                    <div class="col col-lg-4 col-md-6 col-12">
+                        <div class="wpo-blog-item">
+                            <div class="wpo-blog-img">
+                                <img src="/wedding/rio-ansherina/gcash.jpg" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         </div> <!-- end container -->
     </section>
     <!-- end wpo-partners-section-->
 
     <!-- start wpo-blog-section -->
-    <section class="wpo-blog-section-s3 section-padding" id="blog">
+    <section class="wpo-blog-section-s3 section-padding" id="other">
         <div class="container">
             <div class="row">
                 <div class="wpo-section-title-s2">
                     <div class="section-title-simg">
-                        <img src="/wedding/images/section-title2.png" alt="">
+                        <img src="/wedding/rio-ansherina/section-title2.png" alt="">
                     </div>
-                    <h2>From Our Blog</h2>
+                    <h2>Other Details</h2>
                     <div class="section-title-img">
                         <div class="round-ball"></div>
                     </div>
@@ -515,47 +539,25 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                     <div class="col col-lg-4 col-md-6 col-12">
                         <div class="wpo-blog-item">
                             <div class="wpo-blog-img">
-                                <img src="/wedding/images/blog/img-1.jpg" alt="">
+                                <img src="/wedding/rio-ansherina/detail2.png" alt="">
                             </div>
-                            <div class="wpo-blog-content">
-                                <ul>
-                                    <li>By <a href="blog-single.html">Loura Sweety</a></li>
-                                    <li>25 Sep 2024</li>
-                                </ul>
-                                <h2><a href="blog.html">Best wedding gift you may
-                                        like & choose.</a>
-                                </h2>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col col-lg-4 col-md-6 col-12">
                         <div class="wpo-blog-item">
                             <div class="wpo-blog-img">
-                                <img src="/wedding/images/blog/img-2.jpg" alt="">
+                               <img src="/wedding/rio-ansherina/detail3.png" alt="">
                             </div>
-                            <div class="wpo-blog-content">
-                                <ul>
-                                    <li>By <a href="blog-single.html">David Luis</a></li>
-                                    <li>23 Sep 2024</li>
-                                </ul>
-                                <h2><a href="blog.html">Photography is the important part of wedding.</a>
-                                </h2>
-                            </div>
+
                         </div>
                     </div>
                     <div class="col col-lg-4 col-md-6 col-12">
                         <div class="wpo-blog-item">
                             <div class="wpo-blog-img">
-                                <img src="/wedding/images/blog/img-3.jpg" alt="">
+                                <img src="/wedding/rio-ansherina/detail4.png" alt="">
                             </div>
-                            <div class="wpo-blog-content">
-                                <ul>
-                                    <li>By <a href="blog-single.html">Aliana de</a></li>
-                                    <li>21 Sep 2024</li>
-                                </ul>
-                                <h2><a href="blog.html">Top 10 wedding fresh flower decoration idea.</a>
-                                </h2>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -566,7 +568,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
     <!-- end wpo-blog-section -->
 
     <!-- start of wpo-site-footer-section -->
-    <footer class="wpo-site-footer">
+    <footer class="wpo-site-footer" style="display: none;">
         <div class="wpo-upper-footer">
             <div class="container-fluid">
                 <div class="row">

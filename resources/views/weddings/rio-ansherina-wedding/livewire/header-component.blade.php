@@ -24,16 +24,8 @@
                             <button class="menu-close"><i class="ti-close"></i></button>
                             <ul class="nav navbar-nav mb-2 mb-lg-0">
                                 <li class="menu-item-has-children">
-                                    <a href="#">Home</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="index.html">Main Home</a></li>
-                                        <li><a href="index-2.html">Wedding Planner</a></li>
-                                        <li><a class="active" href="index-3.html">Announcement S1</a></li>
-                                        <li><a href="index-4.html">Announcement S2</a></li>
-                                        <li><a href="index-5.html">Wedding Home</a></li>
-                                        <li><a href="index-7.html">Shop Home</a></li>
-                                        <li><a href="index-6.html">Invitation</a></li>
-                                    </ul>
+                                    <a href="#home">Home</a>
+
                                 </li>
                                 <li class="menu-item-has-children">
                                     <a href="#couple">Couple</a>
@@ -48,28 +40,11 @@
                                     <a href="#RSVP">RSVP</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#event">Events</a>
+                                    <a href="#entourage">Entourage</a>
                                 </li>
                                 <li class="menu-item-has-children">
-                                    <a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Blog right sidebar</a></li>
-                                        <li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
-                                        <li><a href="blog-fullwidth.html">Blog fullwidth</a></li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Blog details</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog-single.html">Blog details right
-                                                        sidebar</a>
-                                                </li>
-                                                <li><a href="blog-single-left-sidebar.html">Blog details
-                                                        left
-                                                        sidebar</a></li>
-                                                <li><a href="blog-single-fullwidth.html">Blog details
-                                                        fullwidth</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
+                                    <a href="#other">Other Details</a>
+
                                 </li>
                             </ul>
 

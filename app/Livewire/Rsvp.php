@@ -14,9 +14,18 @@ class Rsvp extends Component
     public $email;
     public $phone;
     public $slug;
+    public $imageUrl = "wedding/images/section-title2.png";
+    public $contact2 = 'wedding/images/contact/2.png';
+    public $contact1 = 'wedding/images/contact/1.png';
 
     public function render()
     {
+         if($this->slug) {
+            $this->imageUrl = '/wedding/rio-ansherina/section-title2.png';
+            $this->contact2 = '/wedding/rio-ansherina/contact.png';
+            $this->contact1 = '/wedding/rio-ansherina/contact1.png';
+        }
+
         return view('livewire.rsvp');
     }
 
@@ -31,7 +40,10 @@ class Rsvp extends Component
         ]);
 
         $validated['reservation_date'] = now();
-        if($this->slug) $validated['slug'] = $this->slug;
+        if($this->slug) {
+            $validated['slug'] = $this->slug;
+            $this->imageUrl = '/wedding/rio-ansherina/section-title2.png';
+        }
 
         // Update if email exists, otherwise create a new reservation
         $reservation = Reservation::updateOrCreate(
