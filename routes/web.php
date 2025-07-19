@@ -12,20 +12,20 @@ Route::get('/', function () {
 //     return view('welcome');
 // });
 
-Route::get('/{slug}', function ($slug) {
-    // $wedding = Wedding::where('slug', $slug)->firstOrFail();
+// Route::get('/{slug}', function ($slug) {
+//     // $wedding = Wedding::where('slug', $slug)->firstOrFail();
 
-    $viewPath = "weddings.$slug.index";
+//     $viewPath = "weddings.$slug.index";
 
-    if (!view()->exists($viewPath)) {
-        abort(404, "Custom view for this wedding not found.");
-    }
+//     if (!view()->exists($viewPath)) {
+//         abort(404, "Custom view for this wedding not found.");
+//     }
 
-    return view($viewPath, ['slug' => $slug]);
-});
+//     return view($viewPath, ['slug' => $slug]);
+// });
 
 Route::get('/preview-invitation', function () {
-    return new App\Mail\ReservationConfirmation('John Paul', 'dYt5I@example.com', '1234567890', now());
+    return new App\Mail\ReservationConfirmation('John Paul', 'dYt5I@example.com', '1234567890', now(), 'rio-ansherina-wedding');
 });
 
 

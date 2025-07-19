@@ -9,9 +9,11 @@ use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Filters\Filter;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Facades\Auth;
 
 class ReservationResource extends Resource
 {
@@ -30,6 +32,14 @@ class ReservationResource extends Resource
     public static function table(Table $table): Table
     {
         return $table
+            ->modifyQueryUsing(function (Builder $query) {
+                if(Auth::user()->email == 'royansherina@gmail.com') {
+                    return $query
+                        ->where('slug', 'rio-ansherina-wedding');
+                }
+
+                return $query;
+            })
             ->columns([
                 Tables\Columns\TextColumn::make('name')
                 ->label('Name')
@@ -45,7 +55,13 @@ class ReservationResource extends Resource
                     ->sortable(),
             ])
             ->filters([
-                //
+                // Filter::make('slug')
+                //     ->label('My Wedding Reservations')
+                //     ->query(function (Builder $query) {
+                //         return $query
+                //             ->where('email', 'royansherina@gmail.com')
+                //             ->where('slug', 'rio-ansherina-wedding');
+                //     }),
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),

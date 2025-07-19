@@ -33,30 +33,40 @@ Your presence means so much to us, and we can’t wait to celebrate this special
 
 ## 🎨 **Wedding Motif**
 
-<table align="center" style="text-align: center; margin-top: 20px;">
+<table width="100%" style="text-align: center;">
     <tr>
-        <td style="padding: 10px;">
-            <div style="background-color: #5b388d; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
-            <p style="font-size: 12px; margin-top: 5px;">Violet</p>
-        </td>
-        <td style="padding: 10px;">
-            <div style="background-color: #d9aaf6; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
-            <p style="font-size: 12px; margin-top: 5px;">Lavender</p>
-        </td>
-        <td style="padding: 10px;">
-            <div style="background-color: #e4e5e7; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
-            <p style="font-size: 12px; margin-top: 5px;">Light Gray</p>
-        </td>
-        <td style="padding: 10px;">
-            <div style="background-color: #fac6d1; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
-            <p style="font-size: 12px; margin-top: 5px;">Light Pink</p>
-        </td>
-        <td style="padding: 10px;">
-            <div style="background-color: #ffd9ce; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
-            <p style="font-size: 12px; margin-top: 5px;">Peach</p>
+        <td align="center">
+            <table style="margin: 0 auto; text-align: center;">
+                <tr>
+                    <td style="padding: 10px;">
+                        <div style="background-color: #5b388d; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
+                        <p style="font-size: 12px; margin-top: 5px;">Violet</p>
+                    </td>
+                    <td style="padding: 10px;">
+                        <div style="background-color: #d9aaf6; width: 50px; height: 50px; border-radius: 50%; margin: auto;"></div>
+                        <p style="font-size: 12px; margin-top: 5px;">Lavender</p>
+                    </td>
+                    <td style="padding: 10px;">
+                        <div style="background-color: #e4e5e7; width: 50px; height: 50px; border-radius: 50%; margin: auto; border: 1px solid #ccc;"></div>
+                        <p style="font-size: 12px; margin-top: 5px;">Light Gray</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="padding: 10px;">
+                        <div style="background-color: #fac6d1; width: 50px; height: 50px; border-radius: 50%; margin: auto; border: 1px solid #ccc;"></div>
+                        <p style="font-size: 12px; margin-top: 5px;">Light Pink</p>
+                    </td>
+                    <td style="padding: 10px;">
+                        <div style="background-color: #ffd9ce; width: 50px; height: 50px; border-radius: 50%; margin: auto; border: 1px solid #ccc;"></div>
+                        <p style="font-size: 12px; margin-top: 5px;">Peach</p>
+                    </td>
+                </tr>
+            </table>
         </td>
     </tr>
 </table>
+
+
 
 <br>
 Warm regards,
