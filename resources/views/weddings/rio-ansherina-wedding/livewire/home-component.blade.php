@@ -493,11 +493,11 @@
         </div> <!-- end container -->
     </section>
 
-     <section class="wpo-about-section section-padding">
+     <section class="wpo-about-section section-padding" style="padding-bottom: 0 !important;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="wpo-section-title-s2">
-                <div class="section-title-simg">
+                {{-- <div class="section-title-simg">
                     <img src="/wedding/rio-ansherina/section-title2.png" alt="">
                     </div>
                     <h2>TIMELINE</h2>
@@ -505,14 +505,14 @@
                         <div class="round-ball"></div>
                     </div>
 
-                </div>
+                </div> --}}
 
                 <div class="wpo-blog-items">
                     <div class="row" style="display: flex; justify-content: center;">
                         <div class="col col-lg-12 col-md-12 col-12">
                             <div class="wpo-blog-item">
                                 <div class="wpo-blog-img">
-                                    <img src="/wedding/rio-ansherina/timeline1.png" alt="" style="display: block; margin: 0 auto;">
+                                    <img src="/wedding/rio-ansherina/timeline.png" alt="" style="display: block; margin: 0 auto;">
                                 </div>
 
                             </div>
@@ -528,21 +528,9 @@
     <section class="wpo-about-section section-padding" style="background: rgba(153, 51, 127, 0.1);">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="wpo-about-wrap">
-                        <div class="wpo-about-item">
-                            <div class="wpo-about-img">
-                                <img src="/wedding/rio-ansherina/gcash.jpg" alt="">
-                            </div>
-                        </div>
 
-                        <div class="ab-shape">
-                            <img src="assets/images/about/shape.png" alt="">
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-7 col-md-12 col-12">
-                    <div class="wpo-about-text">
+                    <div class="wpo-about-text pe-4 ps-0">
                         <div class="wpo-about-icon">
                             <div class="icon">
                                 <img src="/wedding/rio-ansherina/gifts.png" alt="">
@@ -558,6 +546,21 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="wpo-about-wrap ">
+                        <div class="wpo-about-item">
+                            <div class="wpo-about-img">
+                                <img src="/wedding/rio-ansherina/gcash.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ab-shape">
+                            <img src="assets/images/about/shape.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
