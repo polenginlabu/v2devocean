@@ -96,17 +96,7 @@
     <!-- start page-wrapper -->
     <div class="page-wrapper">
         <!-- start preloader -->
-        <div class="preloader" style="display: block;">
-            <div class="vertical-centered-box">
-                <div class="content">
-                    <div class="loader-circle"></div>
-                    <div class="loader-line-mask">
-                        <div class="loader-line"></div>
-                    </div>
-                    <img src="wedding/images/added/preloader.png" alt="">
-                </div>
-            </div>
-        </div>
+        @yield('preloader')
         <!-- end preloader -->
         <!-- Start header -->
         @livewire('header-component')

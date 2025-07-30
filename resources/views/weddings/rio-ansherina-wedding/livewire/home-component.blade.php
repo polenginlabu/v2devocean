@@ -1,9 +1,30 @@
+
+@section('preloader')
+<div class="preloader" style="display: block;">
+        <div class="vertical-centered-box">
+            <div class="content">
+                <div class="loader-circle"></div>
+                <div class="loader-line-mask">
+                    <div class="loader-line"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+@endsection
 <main>
+
     <style>
+
+        .preloader {
+            background-color: #b79fd9 !important;
+        }
         .wpo-hero-slider .slide-inner:before, .wpo-hero-slider .hero-inner:before, .static-hero .slide-inner:before, .static-hero .hero-inner:before, .wpo-hero-slider-s2 .slide-inner:before, .wpo-hero-slider-s2 .hero-inner:before, .wpo-hero-slider-s3 .slide-inner:before, .wpo-hero-slider-s3 .hero-inner:before {
             background: #590d80;
         }
     </style>
+
+
     <section class="wpo-hero-slider wpo-hero-slider-s2" id="home">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -116,10 +137,10 @@
                             <div class="wpo-testimonials-item">
                                 <p>Their story quietly began in 2023, during the simple days of getting to know each other. Rio, with all his patience and persistence, kept building a friendship with Ansherina—even after being gently turned down twice when he asked permission to pursue her.
 
-But Rio never lost hope. In his heart, he believed that the right time would come—and it did.
+                                But Rio never lost hope. In his heart, he believed that the right time would come—and it did.
 
-After a year of silent prayers and waiting, Anshe finally gave him the chance to win her heart. And just a few months later, she said the sweetest 'yes' that changed everything.
- </p>
+                                After a year of silent prayers and waiting, Anshe finally gave him the chance to win her heart. And just a few months later, she said the sweetest 'yes' that changed everything.
+                                </p>
 
                             </div>
 
@@ -152,6 +173,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                             <strong>From:</strong> Pinamalayan, Oriental Mindoro
                             <br>
                             <strong>Life Verse:</strong>
+                            <br>
                             Exodus 14:14
                             "The Lord will fight for you, you need only to be still. "
                             </p>
@@ -175,6 +197,7 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
                                 <strong>From:</strong> Manila
                                 <br>
                                 <strong>Life Verse:</strong>
+                                <br>
                                 Zephaniah 3:17
                                 "The Lord is with you, mighty warrior!"
                             </p>
@@ -392,143 +415,14 @@ After a year of silent prayers and waiting, Anshe finally gave him the chance to
     <!-- end wpo-cta-section -->
 
     <!-- start wpo-event-section -->
-    <section class="wpo-event-section section-padding" id="entourage">
+    <section class="wpo-blog-section-s3 section-padding" id="entourage">
         <div class="container">
             <div class="row">
                 <div class="wpo-section-title-s2">
                     <div class="section-title-simg">
                         <img src="/wedding/rio-ansherina/section-title2.png" alt="">
                     </div>
-                    <h2>the
-entourage</h2>
-                    <div class="section-title-img">
-                        <div class="round-ball"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="wpo-event-wrap">
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col col-lg-4 col-md-6 col-12">
-                        <div class="wpo-event-item">
-                            <div class="wpo-event-text">
-                                <h2>groomsmen</h2>
-                                <ul>
-                                    <li>JEFFREY SAJUL</li>
-                                    <li>JC ANDAL</li>
-                                    <li>ROIVAN ADA</li>
-                                    <li>JAYVEE SOYOSA</li>
-                                    <li>ROWELL SADICON</li>
-                                    <li>ROMAR JAKE NARVAS</li>
-                                    <li>LEE MATHEW ROY</li>
-                                    <li>HARRY MACALINDONG</li>
-                                    <li>ARVIN DE GUIA</li>
-                                    <li>EDGAR BERNARDO</li>
-                                </ul>
-                            </div>
-                            <div class="event-shape-1">
-                                <img src="/wedding/images/event-shape-1.png" alt="">
-                            </div>
-                            <div class="event-shape-2">
-                                <img src="/wedding/images/event-shape-2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col col-lg-4 col-md-6 col-12">
-                        <div class="wpo-event-item">
-                            <div class="wpo-event-text">
-                                <h2>bridesmaid</h2>
-                                <ul>
-                                    <li>AIRA ORPIANO</li>
-                                    <li>KIMBERLY AQUINO</li>
-                                    <li>MARICRIS ARTITCHEA</li>
-                                    <li>SOFIA REGIO</li>
-                                    <li>ELSHERYN DE JESUS</li>
-                                    <li>JEM ARIANNE SALVACION</li>
-                                    <li>PATRICIA TRINIDAD</li>
-                                    <li>MARJORIE BALASTON</li>
-                                    <li>JESSICA DUMARAOS</li>
-                                    <li>GERELYN PRIVADO</li>
-                                </ul>
-                            </div>
-                            <div class="event-shape-1">
-                                <img src="/wedding/images/event-shape-1.png" alt="">
-                            </div>
-                            <div class="event-shape-2">
-                                <img src="/wedding/images/event-shape-2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                    {{-- <div class="col col-lg-4 col-md-6 col-12">
-                        <div class="wpo-event-item">
-                            <div class="wpo-event-text">
-                                <h2>Wedding Party</h2>
-                                <ul>
-                                    <li>Monday, 25 Sep, 2024
-                                        1:00 PM – 4:30 PM</li>
-                                    <li>Estern Comunity Centure, 525 Road 123, USA</li>
-                                    <li>Phone : +12345678910</li>
-
-                                    <li> <a class="popup-gmaps" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">See Location</a></li>
-                                </ul>
-                            </div>
-                            <div class="event-shape-1">
-                                <img src="/wedding/images/event-shape-1.png" alt="">
-                            </div>
-                            <div class="event-shape-2">
-                                <img src="/wedding/images/event-shape-2.png" alt="">
-                            </div>
-                        </div>
-                    </div> --}}
-                </div>
-            </div>
-
-        </div> <!-- end container -->
-    </section>
-
-
-    <!-- end wpo-event-section -->
-    <!-- start wpo-partners-section -->
-    <section class="wpo-partners-section-s3">
-        <h2 class="hidden">Partners</h2>
-        <div class="container">
-        <div class="row">
-            <div class="wpo-section-title-s2">
-                <div class="section-title-simg">
-                    <img src="/wedding/rio-ansherina/section-title2.png" alt="">
-                </div>
-                <h2>Gifts</h2>
-                <div class="section-title-img">
-                    <div class="round-ball"></div>
-                </div>
-            </div>
-
-            <div class="wpo-blog-items">
-                <div class="row" style="display: flex; justify-content: center;">
-                    <div class="col col-lg-4 col-md-6 col-12">
-                        <div class="wpo-blog-item">
-                            <div class="wpo-blog-img">
-                                <img src="/wedding/rio-ansherina/gcash.jpg" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        </div> <!-- end container -->
-    </section>
-    <!-- end wpo-partners-section-->
-
-    <!-- start wpo-blog-section -->
-    <section class="wpo-blog-section-s3 section-padding" id="other">
-        <div class="container">
-            <div class="row">
-                <div class="wpo-section-title-s2">
-                    <div class="section-title-simg">
-                        <img src="/wedding/rio-ansherina/section-title2.png" alt="">
-                    </div>
-                    <h2>Other Details</h2>
+                    <h2>the entourage</h2>
                     <div class="section-title-img">
                         <div class="round-ball"></div>
                     </div>
@@ -536,7 +430,7 @@ entourage</h2>
             </div>
             <div class="wpo-blog-items">
                 <div class="row">
-                    <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="col col-lg-6 col-md-6 col-12">
                         <div class="wpo-blog-item">
                             <div class="wpo-blog-img">
                                 <img src="/wedding/rio-ansherina/detail2.png" alt="">
@@ -544,18 +438,200 @@ entourage</h2>
 
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-6 col-12">
+                    <div class="col col-lg-6 col-md-6 col-12">
                         <div class="wpo-blog-item">
                             <div class="wpo-blog-img">
-                               <img src="/wedding/rio-ansherina/detail3.png" alt="">
+                                <img src="/wedding/rio-ansherina/detail3.png" alt="">
                             </div>
 
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-6 col-12">
-                        <div class="wpo-blog-item">
-                            <div class="wpo-blog-img">
-                                <img src="/wedding/rio-ansherina/detail4.png" alt="">
+
+                </div>
+            </div>
+
+        </div> <!-- end container -->
+    </section>
+
+
+    <section class="wpo-partners-section-s3" id="other">
+        <div class="container">
+            <div class="row">
+                <div class="wpo-section-title-s2">
+                    <div class="section-title-simg">
+                        <img src="/wedding/rio-ansherina/section-title2.png" alt="">
+                    </div>
+                    <h2>Attire
+                        <br>
+                        <small>(Semi-formal)</small>
+                    </h2>
+                    <div class="section-title-img">
+                        <div class="round-ball"></div>
+                    </div>
+                    <br>
+
+                </div>
+
+                <div class="wpo-blog-items-custom">
+                    <div class="wpo-blog-img">
+                        <img src="/wedding/rio-ansherina/violet.png" alt="">
+                    </div>
+                        <div class="wpo-blog-img">
+                        <img src="/wedding/rio-ansherina/lavender.png" alt="">
+                    </div>
+                    <div class="wpo-blog-img">
+                        <img src="/wedding/rio-ansherina/lightgray.png" alt="">
+                    </div>
+                    <div class="wpo-blog-img">
+                        <img src="/wedding/rio-ansherina/lightpink.png" alt="">
+                    </div>
+                    <div class="wpo-blog-img">
+                        <img src="/wedding/rio-ansherina/peach.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+
+     <section class="wpo-about-section section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="wpo-section-title-s2">
+                <div class="section-title-simg">
+                    <img src="/wedding/rio-ansherina/section-title2.png" alt="">
+                    </div>
+                    <h2>TIMELINE</h2>
+                    <div class="section-title-img">
+                        <div class="round-ball"></div>
+                    </div>
+
+                </div>
+
+                <div class="wpo-blog-items">
+                    <div class="row" style="display: flex; justify-content: center;">
+                        <div class="col col-lg-12 col-md-12 col-12">
+                            <div class="wpo-blog-item">
+                                <div class="wpo-blog-img">
+                                    <img src="/wedding/rio-ansherina/timeline1.png" alt="" style="display: block; margin: 0 auto;">
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="wpo-about-section section-padding" style="background: rgba(153, 51, 127, 0.1);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="wpo-about-wrap">
+                        <div class="wpo-about-item">
+                            <div class="wpo-about-img">
+                                <img src="/wedding/rio-ansherina/gcash.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="ab-shape">
+                            <img src="assets/images/about/shape.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="wpo-about-text">
+                        <div class="wpo-about-icon">
+                            <div class="icon">
+                                <img src="/wedding/rio-ansherina/gifts.png" alt="">
+                            </div>
+                        </div>
+                        <div class="wpo-about-icon-content">
+                            <h2>A NOTE ON GIFTS</h2>
+                            <p>As we begin our journey as husband and wife, we are grateful for your presence and love.
+                            </p>
+                            <p>
+                               If you wish to bless us further, a gift in the form of cash will help us build our future home together.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="wpo-contact-pg-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-10 offset-lg-1">
+
+
+                    <div class="wpo-contact-form-area">
+                         <div class="wpo-contact-title">
+                            <h2>HOW TO GET THERE</h2>
+                            <p>Stalla Suites Events Place</p>
+                        </div>
+                         <div class="office-info">
+                            <div class="row">
+                                <img src="/wedding/rio-ansherina/place.png" class="mb-4" alt="" style="display: block; margin: 0 auto; max-width: 250px;">
+                                <br>
+                                <h3 class="text-center">Scan me!</h3>
+                                {{-- <div class="col col-xl-4 col-lg-6 col-md-6 col-12">
+                                    <div class="office-info-item">
+                                        <div class="office-info-icon">
+                                            <div class="icon">
+                                                <i class="fi flaticon-maps-and-flags"></i>
+                                            </div>
+                                        </div>
+                                        <div class="office-info-text">
+                                            <h2>Address</h2>
+                                            <p>7 Green Lake Street Crawfordsville, IN 47933</p>
+                                        </div>
+                                    </div>
+                                </div> --}}
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
+    <!-- end wpo-contact-pg-section -->
+
+    <!--  start wpo-contact-map -->
+    <section class="wpo-contact-map-section">
+        <h2 class="hidden">Contact map</h2>
+        <div class="wpo-contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.4106440211112!2d121.01941740000001!3d14.632616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b743ff1d45cd%3A0x6b408ae166af4c5e!2sStalla%20Suites%20Events%20Place!5e0!3m2!1sen!2sph!4v1753843094397!5m2!1sen!2sph" allowfullscreen></iframe>
+
+        </div>
+    </section>
+
+    <section class="wpo-testimonials-section section-padding" >
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-lg-7 offset-lg-1 col-12">
+                    <div class="wpo-testimonials-wrap">
+                        <h2>A Heartfelt Note to Our Dear Guests ✨🌸</h2>
+                        <div class="wpo-testimonials-active owl-carousel dots-false">
+                            <div class="wpo-testimonials-item">
+                                <p>As we stand before God to begin this sacred covenant,
+                                we kindly ask that you keep your phones tucked away during the ceremony.
+                                Let this moment be one of pure presence, reverence, and worship.
+                                </p>
+                                <p>You are joyfully welcome to capture memories during the reception,
+                                as we celebrate the goodness and faithfulness of the Lord in our love story. 📷
+                                </p>
+                                <p>To keep you refreshed throughout the day,
+please remember to bring a bottled water. 💧
+                                </p>
+                                     <p>Your prayers, presence, and love are the greatest gifts we could ever receive.
+Thank you!
+                                </p>
                             </div>
 
                         </div>
@@ -564,7 +640,13 @@ entourage</h2>
             </div>
 
         </div> <!-- end container -->
+
+        <div class="wpo-testimonials-shape">
+            <img src="assets/images//testimonial/shape2.png" alt="">
+        </div>
     </section>
+
+
     <!-- end wpo-blog-section -->
 
     <!-- start of wpo-site-footer-section -->
@@ -706,5 +788,16 @@ entourage</h2>
             text-transform: uppercase;
         }
 
+        .wpo-blog-items-custom {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        .wpo-blog-items-custom .wpo-blog-img {
+            max-width: 150px;
+        }
     </style>
 </main>

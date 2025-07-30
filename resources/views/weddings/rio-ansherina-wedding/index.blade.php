@@ -103,7 +103,7 @@
                     <div class="loader-line-mask">
                         <div class="loader-line"></div>
                     </div>
-                    <img src="wedding/images/added/preloader.png" alt="">
+                    {{-- <img src="/wedding/rio-ansherina/section-title2.png" alt=""> --}}
                 </div>
             </div>
         </div>
