@@ -323,271 +323,196 @@
                     </div>
                 </div>
             </div>
-            <div class="sortable-gallery">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="portfolio-grids gallery-container clearfix">
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/895-438.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/895-438.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+            <div class="gallery-wrapper">
+    <div class="grid">
 
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/442-1.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/442-1.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/442-2.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/442-2.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/442-3.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/442-3.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/442-4.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/442-4.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+      <!-- Column Sizer for Masonry -->
+      <div class="grid-sizer"></div>
+
+      <!-- Image items -->
 
 
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed1.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed1.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed2.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed2.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed3.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed3.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed4.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed4.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed5.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed5.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed6.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed6.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed7.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed7.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed8.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed8.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed9.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed9.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed10.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed10.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed11.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed11.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed12.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed12.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed13.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed13.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed14.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed14.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed15.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed15.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed16.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed16.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed17.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed17.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed18.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed18.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed19.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed19.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed20.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed20.jpg" alt="">
+        </a>
+        </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/wed21.jpg" data-fancybox="gallery">
+            <img src="/wedding/rio-ansherina/wed21.jpg" alt="">
+        </a>
+        </div>
 
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb1.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb1.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
 
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb20.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb20.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb2.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb2.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb3.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb3.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb4.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb4.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb5.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb5.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb6.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb6.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb7.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb7.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb8.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb8.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb9.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb9.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb10.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb10.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb11.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb11.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb12.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb12.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb13.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb13.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb14.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb14.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb15.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb15.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual2.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual2.jpg" alt="">
+        </a>
+      </div>
+            <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual3.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual3.jpg" alt="">
+        </a>
+      </div>
+            <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual4.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual4.jpg" alt="">
+        </a>
+      </div>      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual5.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual5.jpg" alt="">
+        </a>
+      </div>      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual6.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual6.jpg" alt="">
+        </a>
+      </div>      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual7.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual7.jpg" alt="">
+        </a>
+      </div>      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual8.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual8.jpg" alt="">
+        </a>
+      </div>
 
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb17.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb17.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb18.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb18.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/895-1.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/895-1.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                             <div class="grid">
-                                <div class="img-holder">
-                                    <a href="/wedding/rio-ansherina/fb16.png" class="fancybox" data-fancybox-group="gall-1">
-                                        <img src="/wedding/rio-ansherina/fb16.png" alt class="img img-responsive">
-                                        <div class="hover-content">
-                                            <i class="ti-plus"></i>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo1.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo1.jpg" alt="Corpo 1">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo2.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo2.jpg" alt="Corpo 2">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo3.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo3.jpg" alt="Corpo 3">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo4.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo4.jpg" alt="Corpo 4">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo5.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo5.jpg" alt="Corpo 5">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo6.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo6.jpg" alt="Corpo 6">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/corpo7.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/corpo7.jpg" alt="Corpo 7">
+        </a>
+      </div>
+      <div class="grid-item">
+        <a href="/wedding/rio-ansherina/casual1.jpg" data-fancybox="gallery">
+          <img src="/wedding/rio-ansherina/casual1.jpg" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
 
         </div> <!-- end container -->
     </section>
@@ -669,7 +594,7 @@
 
                 </div>
 
-                <div class="wpo-blog-items-custom">
+                <div class="wpo-blog-items-custom mb-4">
                     <div class="wpo-blog-img">
                         <img src="/wedding/rio-ansherina/violet.png" alt="">
                     </div>
@@ -686,6 +611,22 @@
                         <img src="/wedding/rio-ansherina/peach.png" alt="">
                     </div>
                 </div>
+                <br>
+                <span class="text-center">
+                    <h2>Attire Guide for GUESTS:</h2>
+                    Ladies in MODEST DRESSES
+                    (no revealing cuts).
+                    <br>
+                    Gents in LONG SLEEVES & PANTS.
+                    <br>
+                    Please follow light or pastel color tones in support of our lavender-themed wedding 💜
+                    <br>
+                    Principal & Secondary Sponsors:
+                    <br>
+                    Men: FORMAL - Long sleeves polo (Light gray)
+                    <br>
+                    LADIES: Long dress (Lavender)
+                </span>
             </div>
         </div> <!-- end container -->
     </section>
@@ -823,14 +764,14 @@
                                 we kindly ask that you keep your phones tucked away during the ceremony.
                                 Let this moment be one of pure presence, reverence, and worship.
                                 </p>
-                                <p>You are joyfully welcome to capture memories during the reception,
-                                as we celebrate the goodness and faithfulness of the Lord in our love story. 📷
+                                <p>📷 You are joyfully welcome to capture memories during the reception,
+                                as we celebrate the goodness and faithfulness of the Lord in our love story.
                                 </p>
-                                <p>To keep you refreshed throughout the day,
-please remember to bring a bottled water. 💧
+                                <p>💧 To keep you refreshed throughout the day,
+please remember to bring a bottled water.
                                 </p>
                                      <p>Your prayers, presence, and love are the greatest gifts we could ever receive.
-Thank you!
+See you on our wedding day!
                                 </p>
                             </div>
 
@@ -978,5 +919,37 @@ Thank you!
         .wpo-blog-items-custom .wpo-blog-img {
             max-width: 150px;
         }
+        .gallery-wrapper {
+        padding: 0;
+        }
+
+        .grid {
+         margin: 0 auto; /* ✅ Center it horizontally */
+        }
+        .grid-sizer,
+        .grid-item {
+        width: 350px;
+        }
+
+        .grid-item {
+        /* margin-bottom: 20px; */
+        }
+
+        .grid-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        /* border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.15); */
+        }
+
+        /* Responsive: Full width on small devices */
+        @media (max-width: 768px) {
+        .grid-sizer,
+        .grid-item {
+            width: 100% !important;
+        }
+        }
+
     </style>
 </main>

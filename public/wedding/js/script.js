@@ -386,7 +386,9 @@
                 $(this).addClass('current');
                 var selector = $(this).attr('data-filter');
                 $container.isotope({
-                    filter:selector,
+                    itemSelector: '.grid-item',
+                    layoutMode: 'fitRows', // or 'masonry'
+                    filter: '*',
                     animationOptions: {
                         duration: 750,
                         easing: 'linear',
@@ -398,6 +400,18 @@
         }
     }
 
+ const grid = document.querySelector('.grid');
+
+    imagesLoaded(grid, function () {
+      new Isotope(grid, {
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        masonry: {
+          columnWidth: '.grid-sizer',
+          fitWidth: true
+        }
+      });
+    });
     sortingGallery();
 
 
