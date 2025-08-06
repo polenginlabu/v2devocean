@@ -621,7 +621,7 @@
                     <br>
                     Please follow light or pastel color tones in support of our lavender-themed wedding 💜
                     <br>
-                    Principal & Secondary Sponsors:
+                    <strong>Principal & Secondary Sponsors:</strong>
                     <br>
                     Men: FORMAL - Long sleeves polo (Light gray)
                     <br>
