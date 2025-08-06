@@ -37,7 +37,8 @@
                                     <h2 style="line-height: 85px;">Rio & Ansherina</h2>
                                 </div>
                                 <div data-swiper-parallax="400" class="slide-text">
-                                    <p>We Are Getting Married Oct 06,2025</p>
+                                    <p>We Are Getting Married</p>
+                                    <p>Oct 06,2025</p>
                                 </div>
                                 <div class="border-1"></div>
                                 <div class="border-2"></div>
