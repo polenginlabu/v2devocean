@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html id="html">
+<head lang="en">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Avo Help Guide</title>
+    <style type="text/css">
+        body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+            margin: 0;
+            padding: 0;
+        }
+        * {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        :before, :after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+        img, object, embed {max-width: 100%; height: auto;}
+        object, embed {height: 100%;}
+        img { margin: 1.25% 0; -ms-interpolation-mode: bicubic; }
+        html {
+            background-color: #bbb;
+            padding: 2%;
+        }
+        body {
+            font-size: 16px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+            color: #242424;
+            max-width: 800px;
+            margin: 5% auto;
+
+        }
+        body::after {
+            clear: both;
+            content: "";
+            display: table;
+        }
+        header {
+            margin-bottom: 8%;
+        }
+        footer {
+            text-align: center;
+        }
+        h1, h2, h3, h4, h5, h1 a {
+            color: #263A48;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 28px;
+            padding-bottom: 0.3em;
+            margin-bottom: 0.4em;
+            border-bottom: 1px solid #bbb
+        }
+        h2 {
+            font-size: 22px;
+            padding-bottom: 0.6em;
+            margin-top: 1.5em;
+        }
+        h3 {
+            font-size: 18px;
+            margin-bottom: 0.3em;
+        }
+        h1 small a {
+            color: #98999C;
+            font-size: 15px;
+            font-weight: normal;
+            float: right;
+            position: absolute;
+            top: 70px;
+            right: 70px;
+        }
+        section {
+            background: #fff;
+            position: relative;
+            padding: 6% 8%;
+        }
+        blockquote {
+            border-left: 3px solid #d54e21;
+            font-size: 16px;
+            padding: 0 0 0 20px;
+            color: #d54e21;
+        }
+        blockquote a {
+            color: #d54e21;
+            font-weight: 500;
+        }
+        blockquote code {
+            color: #d54e21;
+        }
+        code, cite {
+            background-color: #F0F2F4;
+            border-radius: 3px;
+            color: #000;
+            font: inherit;
+            padding: 2px 7px;
+            white-space: nowrap;
+        }
+        a {
+            color: #1e8cbe;
+            text-decoration: underline;
+        }
+        a:hover {
+            color: #d54e21;
+        }
+        ul {
+            list-style: none;
+        }
+        ol {
+            list-style: number;
+        }
+        ol li {
+            color: #98999C;
+            margin-bottom: 5px;
+        }
+        ol li:last-child {
+            margin-bottom: 0;
+        }
+        p, ul, ol, blockquote  {
+            margin-bottom: 2%;
+        }
+        p{
+            color: #847a7a;
+        }
+        ul ul {
+            padding-top: 0;
+            margin-bottom: 0;
+            margin-left: 4%;
+        }
+        ul ul li:before {
+            content: '-';
+            display: inline-block;
+            padding-right: 2%;
+        }
+
+        ul.col-2 {
+            color: #98999C;
+            -webkit-column-count: 2;
+            -moz-column-count: 2;
+            column-count: 2;
+            -webkit-column-gap: 20px;
+            -moz-column-gap: 20px;
+            column-gap: 20px;
+        }
+        .bg-gray{
+            background-color: #f7f7f7;
+        }
+        ul, ol {
+             margin: 0 1.5em 1.5em 3.5em;}
+
+        @media screen and (min-width: 500px) {
+            ul.col-2 {
+                -webkit-column-count: 3;
+                -moz-column-count: 3;
+                column-count: 3;
+                -webkit-column-gap: 20px;
+                -moz-column-gap: 20px;
+                column-gap: 20px;
+            }
+        }
+        nav {
+            background: #F0F1F3;
+            min-width: 215px;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+        nav:first-of-type a {
+            color: #d54e21;
+            border-radius: 0;
+        }
+        nav:first-of-type a:hover {
+            color: #d54e21;
+        }
+        nav:first-of-type a:before {
+            background-color: #d54e21;
+        }
+        nav.affix {
+            position: fixed;
+            top: 20px;
+        }
+        nav.affix-bottom {
+            position: absolute;
+        }
+        nav a {
+            border-radius: 3px;
+            font-size: 15px;
+            display: block;
+            cursor: pointer;
+            font-weight: 500;
+            position: relative;
+            text-decoration: none;
+            padding: 10px 12px;
+            width: 100%;
+            padding-right: 3px;
+            border-bottom: 2px solid #fff;
+        }
+        nav a:before {
+            content: '';
+            width: 4px;
+            display: block;
+            left: 0;
+            position: absolute;
+            height: 100%;
+            display: none;
+            background: #1e8cbe;
+            top: 0;
+        }
+        nav a:hover {
+            background-color: #E6E8EA;
+            color: #1e8cbe;
+            text-decoration: underline;
+        }
+        nav a:hover:before {
+            display: block;
+        }
+        nav a:last-of-type {
+            border-bottom: none;
+        }
+        .gist {
+            margin-top: 5.1%;
+            margin-bottom: 5%;
+        }
+        @media screen and (max-width: 1050px) {
+            body {
+                margin: 0 auto;
+            }
+        }
+        @media screen and (max-width: 767px) {
+            header span {
+                display: none;
+            }
+            h1 {
+                font-size: 26px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+        @media screen and (max-width: 514px) {
+            p, ul, ol, blockquote  {
+                margin-bottom: 8%;
+            }
+        }
+        .bgb {background: #eeeeee;}
+    </style>
+</head>
+
+<body>
+    <section id="Menu">
+        <header>
+            <h1>Avo -  Creative Portfolio & Agency Template</h1>
+            Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://themeforest.net/user/ui-themez" target="blank">here</a>. Thanks so much!</p>
+        </header>
+
+        <nav>
+            <a href="#GettingStarted">Getting Started</a>
+
+            <a href="#HowtoInstall">How to Install</a>
+
+            <a href="#HTMLStructure">HTML Structure</a>
+
+            <a href="#CSSFilesandStructure">CSS Files and Structure</a>
+
+            <a href="#JavaScript"> JavaScript</a>
+
+            <a href="#Howtocustomize">How to customize</a>
+
+            <a href="#SupportDesk">Support Desk</a>
+
+            <a href="#FilesSources">Files & Sources</a>
+
+            <a href="#Updates">Updates</a>
+
+        </nav>
+    </section>
+
+    <section id="GettingStarted">
+        <h1><a href="#GettingStarted">Getting Started</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <p>This document covers the installation, set up, and use of this template, and provides answers and solutions to common problems. We encourage you to first read this document thoroughly if you are experiencing any difficulties before contacting our support team.</p>
+    </section>
+
+    <section id="HowtoInstall" class="bg-gray">
+
+        <h1><a href="#HowtoInstall">How to Install</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Upload via Cpanel</h2>
+        <p>Open you Cpanel and go to you main folder and upload all files.</p>
+
+        <h2>Upload via FTP Server</h2>
+        <p>You can also use FTP Server to upload all your files on server..</p>
+
+    </section>
+
+    <section id="HTMLStructure">
+
+        <h1><a href="#HTMLStructure">HTML Structure</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>This theme is a responsive layout with 4+ columns.The header (column #1) content is within a section with an class of "header". The hero (column #2) content is within a section with an id of "about". The services (column #3) content is within a section with an id of "services". The clients (column #4) content is within a section with an id of "clients". The portfolio (column #5) content is within a div with an id of "portfolio". The blog (column #6) content is within a div with an id of "blog". The contact (column #7) content is within a section with an id of "contact". The general template structure is the same throughout the template. Here is the general structure.</p>
+        <img src="images/htmlstructure.png">
+
+    </section>
+
+        <section id="CSSFilesandStructure" class="bg-gray">
+
+            <h1><a href="#CSSFilesandStructure">CSS Files and Structure</a><small><a href="#html">Back to Top</a></small></h1>
+            <p>I'm using two CSS files in this theme. The first one is a generic reset file. Many browser interpret the default behavior of html elements differently. By using a general reset CSS file, we can work round this. This file also contains some general styling, such as anchor tag colors, font-sizes, etc. Keep in mind, that these values might be overridden somewhere else in the file.</p>
+        <p>The second file contains all of the specific stylings for the page. The file is separated into sections using:</p> <pre> /* Basic */
+
+    some code
+
+/* Utility Classes */
+
+    some code   
+    
+    /* header */
+    
+    some code
+    
+    /* about */
+    
+    some code
+    
+    /* services */
+    some code
+    
+    etc, etc. 
+</pre>
+        <p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> <pre>    #selector {
+        change styles here:
+    }
+</pre>
+
+        </section>
+
+
+
+           <section id="JavaScript">
+
+                <h1><a href="#JavaScript">JavaScript</a><small><a href="#html">Back to Top</a></small></h1>
+                <p>This theme imports three Javascript files.</p>
+                <ol>
+                    <li>jQuery</li>
+                    <li>bootstrap</li>
+                    <li>owl.carousel</li>
+                    <li>stellar</li>
+                    <li>typed</li>
+                    <li>isotope.pkgd</li>
+                    <li>My custom scripts</li>
+                </ol>
+                <ol>
+                    <li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+                    <li>In addition to the custom scripts, I implement a few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method. For example: <pre> [some Javascript goes here...along with an general explanation]</pre> </li>
+                </ol>
+            </section>
+
+    <section id="Howtocustomize" class="bg-gray">
+
+        <h1><a href="#Howtocustomize">How to customize</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>SASS General Options</h2>
+        <p>Sodic is developed in SASS. by using variable it's super easy to add changes. for compiling SASS we use Gurnt <b>OR</b> Prepros</p>
+
+        <h2>CSS General Options</h2>
+        <p>We have add all major styles in style.css, and it's properly commented and very easy to customize. you can pick you block at top and easily search it in style.css file.</p>
+
+        <h2>Font Options</h2>
+        <p>Sodic HTML template has awesome features. in this template you have unlimited Font options. it's super easy and fast to change Font of complete site. we have created a variable in scss file just  replace it with your Font family that's all,  in result you will have you required Font family on site.</p>
+
+        <h2>Responsive Options</h2>
+        <p>Sodic HTML template has awesome features. in this template we have created a separate css file which has all Responsive style. it's super easy and fast to change any responsive in responsive.css file..</p>
+
+    </section>
+
+    <section id="SupportDesk">
+        <h1><a href="#SupportDesk">Support Desk</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>If you have a problem with the theme or found a bug, please let us know via our official <a href="https://themeforest.net/user/design_story">Help Center</a>. We take pride in our customer support and we will do what we can to assist you.</p>
+        <blockquote>Please note that support is only offered for <em>Sodic</em> theme. If you already have a Pro license and have any questions that are beyond the scope of this document, feel free to ask us via our dedicated <a href="https://themeforest.net/user/design_story" target="blank">help center</a>.</blockquote>
+    </section>
+
+    <section id="FilesSources" class="bg-gray">
+
+        <h1><a href="#FilesSources">Files & Sources</a><small><a href="#html">Back to Top</a></small></h1>
+
+        <h2>Included Stylesheets</h2>
+        <p>These are the primary CSS files used for general front-end styling. Use these to customize your template even further. All included CSS codes under <strong>sodic/css/</strong></p>
+        <ul>
+        <li>1. style.css - Primary stylesheet</li>
+        <li>2. responsive.css - responsive css file</li>
+        <li>3. bootstrap.css - Bootstrap stylesheet</li>
+        <li>4. plugins.css - Contain plugins styles</li>
+        </ul>
+
+        <h2>Included JavaScript</h2>
+        <p>These are the various attribution inks to the Javascript files included or modified to work with in this template. All included JavaScript codes under <strong>sodic/js/</strong></p>
+
+        <ul>
+        <li>1. jquery.js - Base JavaScript</li>
+        <li>2. plugins.js - plugins JavaScript</li>
+        <li>3. jquery.main.js - functions JavaScript</li>
+        </ul>
+
+    </section>
+
+
+
+    <section id="Updates">
+
+        <h1><a href="#Updates">Updates</a><small><a href="#html">Back to Top</a></small></h1>
+        <p>If you've requested and entered your theme license key, then you'll automatically be notified of any theme updates as we push them. This is the most effective method for getting updates pushed to you quickly and effienctly. </p>
+
+        <h2>Recommended</h2>
+        <p>Overall, the safest and cleanest way to update your theme is to leave your currently modified theme on your server/site as is, rename the folder of the newly updated theme, upload the new theme, and modify that to match your original custom work. In this way, if something has gone wrong with the new version, you’re just a few clicks away from getting things back to how they originally were.</p>
+
+            <hr>
+    <p style="font-style: italic;font-weight: normal;"><strong>UI-ThemeZ</strong></p>
+
+    </section>
+
+
+</body>
+</html>

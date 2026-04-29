@@ -135,7 +135,7 @@
                                 </div>
                                 <div class="contact-ft">
                                     <ul>
-                                        <li><i class="fi flaticon-email"></i>johnpaul.dj21@gmail.com</li>
+                                        <li><i class="fi flaticon-email"></i>contactus@devocean.website</li>
                                         <li><i class="fi flaticon-phone-call"></i>+639201900963</li>
                                     </ul>
                                 </div>

@@ -40,7 +40,7 @@ class DevotionResource extends Resource
         $user = Auth::user();
 
         // Check if the user is logged in and their email matches
-        return $user && $user->email === 'johnpaul.dj21@gmail.com';
+        return $user && $user->email === 'contactus@devocean.website';
     }
 
     public static function form(Form $form): Form
