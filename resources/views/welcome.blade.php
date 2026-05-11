@@ -1137,6 +1137,41 @@
             data-key="zz_bot-9a9d24bf-b7a5-4923-84aa-fff5fd0a1368"
             defer
         ></script>
+
+    <!-- ── Navbar Logo Wave Animation ──────────────────────── -->
+    <script>
+    (function () {
+        var wavePath = document.querySelector('#waveTextClipNav path');
+        if (!wavePath) return;
+
+        var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reduceMotion) return;
+
+        var baseY = 55;
+        var amp = 7;
+        var speed = 0.0066;
+
+        function frame(ts) {
+            var t = ts * speed;
+            var y0 = baseY + Math.sin(t + 0.0) * amp * 0.45;
+            var y1 = baseY + Math.sin(t + 0.8) * amp;
+            var y2 = baseY + Math.sin(t + 1.7) * amp * 0.7;
+            var y3 = baseY + Math.sin(t + 2.6) * amp;
+            var y4 = baseY + Math.sin(t + 3.4) * amp * 0.55;
+
+            var d = 'M 0 ' + y0.toFixed(2)
+                + ' C 70 ' + y1.toFixed(2) + ', 150 ' + y2.toFixed(2) + ', 220 ' + y3.toFixed(2)
+                + ' C 290 ' + y4.toFixed(2) + ', 355 ' + y1.toFixed(2) + ', 400 ' + y2.toFixed(2)
+                + ' L 400 150 L 0 150 Z';
+
+            wavePath.setAttribute('d', d);
+            requestAnimationFrame(frame);
+        }
+
+        requestAnimationFrame(frame);
+    })();
+    </script>
+
     <!-- ── Ethereal Shadows Animation ───────────────────────── -->
     <script>
     (function () {
