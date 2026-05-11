@@ -1132,7 +1132,11 @@
     <script src="/themes/avo%20theme/avo/avo-dark/js/jquery-migrate-3.0.0.min.js"></script>
     <script src="/themes/avo%20theme/avo/avo-dark/js/plugins.js"></script>
     <script src="/themes/avo%20theme/avo/avo-dark/js/scripts.js"></script>
-
+<script
+            src="https://invitations-stages-counting-dedicated.trycloudflare.com/chatbot.js"
+            data-key="zz_bot-9a9d24bf-b7a5-4923-84aa-fff5fd0a1368"
+            defer
+        ></script>
     <!-- ── Ethereal Shadows Animation ───────────────────────── -->
     <script>
     (function () {
